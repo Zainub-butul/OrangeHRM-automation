@@ -1,0 +1,1 @@
+{"uuid": "2c9b7b72-a1a4-43aa-bfaa-3e0d79e561e6", "children": ["d67f5da8-cb51-446d-9fe3-ce6aba4dab4f"], "befores": [{"name": "vacancy_page", "status": "passed", "start": 1759834389637, "stop": 1759834389638}], "afters": [{"name": "vacancy_page::0", "status": "passed", "start": 1759834425903, "stop": 1759834425903}], "start": 1759834389637, "stop": 1759834425903}

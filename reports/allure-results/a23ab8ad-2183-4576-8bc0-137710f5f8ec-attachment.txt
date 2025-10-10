@@ -1,0 +1,14 @@
+
+>>> Test: Add Employee with Middle Name and Custom ID
+✅ Logged in
+>>> Navigating to Add Employee page
+✅ Clicked on Add Employee menu
+>>> Filling employee details: John Michael Doe
+>>> Filling employee details: John Michael Doe
+✅ Employee details submitted
+>>> Retrieved Employee ID: 0404
+>>> Auto-generated Employee ID: 0404
+>>> Clicking Save button
+✅ Employee saved
+>>> Success message text: Success
+✅ Employee created: John Michael Doe (ID: 0404)

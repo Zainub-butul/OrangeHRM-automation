@@ -1,0 +1,25 @@
+2025-10-07 16:16:35,657 - INFO - root - ===== Test Session Started =====
+2025-10-07 16:16:36,509 - INFO - root - Initializing WebDriver for browser: chrome
+2025-10-07 16:16:36,509 - INFO - WDM - ====== WebDriver manager ======
+2025-10-07 16:16:40,519 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-07 16:17:07,983 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-07 16:17:08,194 - INFO - WDM - Driver [C:\Users\shahn\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-07 16:17:15,086 - INFO - root - Chrome WebDriver launched successfully.
+2025-10-07 16:17:15,438 - INFO - root - Driver configured with implicit wait and maximized window.
+2025-10-07 16:17:15,438 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-07 16:17:37,291 - INFO - pages.login_page - LoginPage initialized
+2025-10-07 16:17:37,291 - INFO - pages.dashboard_page - DashboardPage initialized
+2025-10-07 16:17:37,292 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-07 16:17:41,912 - INFO - pages.login_page - Login button clicked
+2025-10-07 16:17:42,812 - INFO - pages.dashboard_page - Dashboard displayed: True
+2025-10-07 16:17:42,851 - INFO - pages.dashboard_page - Dashboard displayed: True
+2025-10-07 16:17:42,851 - INFO - pages.dashboard_page - Navigating to PIM page
+2025-10-07 16:18:13,799 - ERROR - root - Test FAILED: test_auto_generated_employee_id. Screenshot saved at screenshots/test_auto_generated_employee_id_20251007_161813.png
+2025-10-07 16:18:13,820 - INFO - root - Clearing cookies and storage after test.
+2025-10-07 16:18:13,954 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-07 16:18:15,756 - INFO - pages.login_page - LoginPage initialized
+2025-10-07 16:18:15,757 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-07 16:18:18,956 - INFO - pages.login_page - Login button clicked
+2025-10-07 16:18:38,164 - ERROR - root - Test FAILED: test_add_vacancy. Screenshot saved at screenshots/test_add_vacancy_20251007_161837.png
+2025-10-07 16:18:38,171 - INFO - root - Clearing cookies and storage after test.
+2025-10-07 16:18:42,763 - INFO - root - Driver closed after session.

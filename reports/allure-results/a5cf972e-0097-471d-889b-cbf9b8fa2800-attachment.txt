@@ -1,0 +1,23 @@
+>>> Starting login fixture
+>>> Login completed
+>>> Initializing VacancyPage fixture
+>>> VacancyPage fixture ready
+>>> Test: Add Vacancy started
+>>> Navigating to Vacancies menu
+>>> Navigating to Recruitment tab
+>>> Recruitment tab clicked
+>>> Waiting for Vacancies menu
+>>> Vacancies menu clicked successfully
+>>> Clicking Add button
+>>> Clicking Add button
+>>> Add button clicked successfully
+>>> Selecting Job Title
+>>> Selecting Job Title: QA Engineer
+>>> Dropdown clicked
+>>> Job Title 'QA Engineer' selected successfully
+>>> Entering Vacancy Name
+>>> Entering Vacancy Name: Automation Tester Vacancy
+>>> Vacancy Name entered successfully
+>>> Entering Hiring Manager (autocomplete)
+>>> Finished VacancyPage fixture
+>>> Finished login fixture

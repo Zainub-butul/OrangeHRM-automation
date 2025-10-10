@@ -1,0 +1,19 @@
+2025-10-10 12:18:57,014 - INFO - root - ===== Test Session Started =====
+2025-10-10 12:18:57,817 - INFO - root - Initializing WebDriver for browser: chrome
+2025-10-10 12:18:57,818 - INFO - WDM - ====== WebDriver manager ======
+2025-10-10 12:19:00,965 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 12:19:01,216 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 12:19:01,389 - INFO - WDM - Driver [C:\Users\shahn\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-10 12:19:08,752 - INFO - root - Chrome WebDriver launched successfully.
+2025-10-10 12:19:09,089 - INFO - root - Driver configured with implicit wait and maximized window.
+2025-10-10 12:19:09,090 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-10 12:19:15,348 - INFO - pages.login_page - LoginPage initialized
+2025-10-10 12:19:15,349 - INFO - pages.dashboard_page - DashboardPage initialized
+2025-10-10 12:19:15,349 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-10 12:19:19,192 - INFO - pages.login_page - Login button clicked
+2025-10-10 12:19:21,171 - INFO - pages.dashboard_page - Dashboard displayed: True
+2025-10-10 12:19:21,190 - INFO - pages.dashboard_page - Dashboard displayed: True
+2025-10-10 12:19:21,191 - INFO - pages.dashboard_page - Navigating to PIM page
+2025-10-10 12:19:50,986 - ERROR - root - Test FAILED: test_auto_generated_employee_id. Screenshot saved at screenshots/test_auto_generated_employee_id_20251010_121950.png
+2025-10-10 12:19:51,016 - INFO - root - Clearing cookies and storage after test.
+2025-10-10 12:19:58,191 - INFO - root - Driver closed after session.

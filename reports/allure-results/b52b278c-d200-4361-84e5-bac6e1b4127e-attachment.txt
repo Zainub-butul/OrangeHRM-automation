@@ -1,0 +1,34 @@
+>>> Starting login fixture
+>>> Login completed
+>>> Initializing VacancyPage fixture
+>>> VacancyPage fixture ready
+>>> Test: Add Vacancy started
+>>> Navigating to Vacancies menu
+>>> Navigating to Recruitment tab
+!!! Error in navigate_to_vacancies: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xd2c333+65459]
+	GetHandleVerifier [0x0xd2c374+65524]
+	(No symbol) [0x0xb4d973]
+	(No symbol) [0x0xb976e7]
+	(No symbol) [0x0xb97a8b]
+	(No symbol) [0x0xbddea2]
+	(No symbol) [0x0xbb9e44]
+	(No symbol) [0x0xbdb606]
+	(No symbol) [0x0xbb9bf6]
+	(No symbol) [0x0xb8b38e]
+	(No symbol) [0x0xb8c274]
+	GetHandleVerifier [0x0xfaeda3+2697763]
+	GetHandleVerifier [0x0xfa9ec7+2677575]
+	GetHandleVerifier [0x0xd54194+228884]
+	GetHandleVerifier [0x0xd449f8+165496]
+	GetHandleVerifier [0x0xd4b18d+192013]
+	GetHandleVerifier [0x0xd347d8+99416]
+	GetHandleVerifier [0x0xd34972+99826]
+	GetHandleVerifier [0x0xd1ebea+10346]
+	BaseThreadInitThunk [0x0x76307ba9+25]
+	RtlInitializeExceptionChain [0x0x7788c2eb+107]
+	RtlClearBits [0x0x7788c26f+191]
+
+>>> Finished VacancyPage fixture
+>>> Finished login fixture

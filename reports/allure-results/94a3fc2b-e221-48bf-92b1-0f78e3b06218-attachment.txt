@@ -1,0 +1,19 @@
+
+>>> Test: Verify Auto-Generated Employee ID
+>>> Checking if current page is PIM
+>>> Breadcrumb text found: 'PIM'
+✅ Is PIM page: True
+>>> Checking if current page is PIM
+>>> Breadcrumb text found: 'PIM'
+✅ Is PIM page: True
+>>> Navigating to Add Employee page
+✅ Clicked on Add Employee menu
+>>> Checking if Add Employee page is loaded
+✅ Add Employee page loaded: True
+>>> Checking if Add Employee page is loaded
+✅ Add Employee page loaded: True
+>>> Filling First Name: huoTAF
+>>> Filling Last Name: OXsgubSW
+>>> Waiting for Employee ID to auto-generate
+>>> Retrieved Employee ID: 0520
+✅ Auto-generated Employee ID: 0520

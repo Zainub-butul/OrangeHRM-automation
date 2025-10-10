@@ -1,0 +1,9 @@
+>>> Navigating to Add Employee page
+✅ Clicked on Add Employee menu
+>>> Filling First Name: OEZvZL
+>>> Filling Last Name: THMkXk
+>>> Waiting for Employee ID to auto-generate
+>>> Retrieved Employee ID: 0393
+✅ Auto-generated Employee ID: 0393
+>>> Retrieved Employee ID: 0393
+✅ Auto-generated Employee ID: 0393

@@ -1,0 +1,10 @@
+[32mINFO    [0m root:conftest.py:87 Opening base URL: https://opensource-demo.orangehrmlive.com/
+[32mINFO    [0m tests.Login.test_login:test_login.py:27 ===== START: test_login with username='Admin' and password='admin123' =====
+[32mINFO    [0m pages.login_page:login_page.py:21 LoginPage initialized
+[32mINFO    [0m tests.Login.test_login:test_login.py:32 Performing login with username='Admin' and password='admin123'
+[32mINFO    [0m pages.login_page:login_page.py:25 Attempting login with username: 'Admin'
+[32mINFO    [0m pages.login_page:login_page.py:29 Login button clicked
+[32mINFO    [0m tests.Login.test_login:test_login.py:36 Expecting a successful login
+[32mINFO    [0m tests.Login.test_login:test_login.py:43 ✅ Login successful, Dashboard header displayed and URL verified
+[32mINFO    [0m tests.Login.test_login:test_login.py:57 ===== END: test_login with username='Admin' =====
+[32mINFO    [0m root:conftest.py:91 Clearing cookies and storage after test.

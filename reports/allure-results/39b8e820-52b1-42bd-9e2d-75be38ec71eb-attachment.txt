@@ -1,0 +1,35 @@
+
+>>> Test: Add Employee - Carol Davis
+>>> Navigating to Add Employee page
+✅ Clicked on Add Employee menu
+>>> Creating employee: Carol  Davis
+>>> Filling First Name: Carol
+>>> Filling Last Name: Davis
+>>> Waiting for Employee ID to auto-generate
+⚠ Error filling basic employee details: Message: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x57c333+65459]
+	GetHandleVerifier [0x0x57c374+65524]
+	(No symbol) [0x0x39d7c0]
+	(No symbol) [0x0x38de79]
+	(No symbol) [0x0x38cfaa]
+	(No symbol) [0x0x3ab4af]
+	(No symbol) [0x0x410775]
+	(No symbol) [0x0x42aef9]
+	(No symbol) [0x0x409bf6]
+	(No symbol) [0x0x3db38e]
+	(No symbol) [0x0x3dc274]
+	GetHandleVerifier [0x0x7feda3+2697763]
+	GetHandleVerifier [0x0x7f9ec7+2677575]
+	GetHandleVerifier [0x0x5a4194+228884]
+	GetHandleVerifier [0x0x5949f8+165496]
+	GetHandleVerifier [0x0x59b18d+192013]
+	GetHandleVerifier [0x0x5847d8+99416]
+	GetHandleVerifier [0x0x584972+99826]
+	GetHandleVerifier [0x0x56ebea+10346]
+	BaseThreadInitThunk [0x0x76307ba9+25]
+	RtlInitializeExceptionChain [0x0x7788c2eb+107]
+	RtlClearBits [0x0x7788c26f+191]
+

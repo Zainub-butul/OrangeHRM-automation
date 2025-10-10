@@ -1,0 +1,15 @@
+2025-10-10 12:05:38,875 - INFO - root - ===== Test Session Started =====
+2025-10-10 12:05:39,240 - INFO - root - Initializing WebDriver for browser: chrome
+2025-10-10 12:05:39,241 - INFO - WDM - ====== WebDriver manager ======
+2025-10-10 12:05:44,562 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 12:05:44,873 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 12:05:45,060 - INFO - WDM - Driver [C:\Users\shahn\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-10 12:05:52,797 - INFO - root - Chrome WebDriver launched successfully.
+2025-10-10 12:05:53,160 - INFO - root - Driver configured with implicit wait and maximized window.
+2025-10-10 12:05:53,161 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-10 12:05:58,949 - INFO - pages.login_page - LoginPage initialized
+2025-10-10 12:05:58,950 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-10 12:06:00,762 - INFO - pages.login_page - Login button clicked
+2025-10-10 12:06:10,381 - ERROR - root - Test FAILED: test_add_vacancy. Screenshot saved at screenshots/test_add_vacancy_20251010_120610.png
+2025-10-10 12:06:10,385 - INFO - root - Clearing cookies and storage after test.
+2025-10-10 12:06:19,329 - INFO - root - Driver closed after session.

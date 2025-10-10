@@ -1,0 +1,7 @@
+[32mINFO    [0m root:conftest.py:87 Opening base URL: https://opensource-demo.orangehrmlive.com/
+[32mINFO    [0m pages.login_page:login_page.py:21 LoginPage initialized
+[32mINFO    [0m pages.dashboard_page:dashboard_page.py:27 DashboardPage initialized
+[32mINFO    [0m pages.login_page:login_page.py:25 Attempting login with username: 'Admin'
+[32mINFO    [0m pages.login_page:login_page.py:29 Login button clicked
+[32mINFO    [0m pages.dashboard_page:dashboard_page.py:77 Navigating to PIM page
+[32mINFO    [0m root:conftest.py:91 Clearing cookies and storage after test.

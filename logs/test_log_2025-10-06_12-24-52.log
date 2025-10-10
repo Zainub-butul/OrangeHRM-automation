@@ -1,0 +1,68 @@
+2025-10-06 12:24:52,711 - INFO - root - ===== Test Session Started =====
+2025-10-06 12:24:52,990 - INFO - root - Initializing WebDriver for browser: chrome
+2025-10-06 12:24:52,991 - INFO - WDM - ====== WebDriver manager ======
+2025-10-06 12:24:56,343 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-06 12:24:56,497 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-06 12:24:56,599 - INFO - WDM - Driver [C:\Users\shahn\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-06 12:25:02,304 - INFO - root - Chrome WebDriver launched successfully.
+2025-10-06 12:25:02,517 - INFO - root - Driver configured with implicit wait and maximized window.
+2025-10-06 12:25:02,518 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-06 12:25:12,625 - INFO - tests.test_login - ===== START: test_login with username='Admin' and password='admin123' =====
+2025-10-06 12:25:12,626 - INFO - pages.login_page - LoginPage initialized
+2025-10-06 12:25:12,626 - INFO - tests.test_login - Performing login with username='Admin' and password='admin123'
+2025-10-06 12:25:12,626 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-06 12:25:17,079 - INFO - pages.login_page - Login button clicked
+2025-10-06 12:25:17,079 - INFO - tests.test_login - Expecting a successful login
+2025-10-06 12:25:18,291 - INFO - tests.test_login - \u2705 Login successful, Dashboard header displayed and URL verified
+2025-10-06 12:25:18,291 - INFO - tests.test_login - ===== END: test_login with username='Admin' =====
+
+2025-10-06 12:25:19,307 - INFO - root - Clearing cookies and storage after test.
+2025-10-06 12:25:19,510 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-06 12:25:20,480 - INFO - tests.test_login - ===== START: test_login with username='Admin' and password='wrongPass' =====
+2025-10-06 12:25:20,480 - INFO - pages.login_page - LoginPage initialized
+2025-10-06 12:25:20,480 - INFO - tests.test_login - Performing login with username='Admin' and password='wrongPass'
+2025-10-06 12:25:20,480 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-06 12:25:21,925 - INFO - pages.login_page - Login button clicked
+2025-10-06 12:25:21,926 - INFO - tests.test_login - Expecting login to fail
+2025-10-06 12:25:23,785 - WARNING - pages.login_page - Login error message displayed: Invalid credentials
+2025-10-06 12:25:23,785 - WARNING - tests.test_login - Login failed as expected with error message: 'Invalid credentials'
+2025-10-06 12:25:23,785 - INFO - tests.test_login - ===== END: test_login with username='Admin' =====
+
+2025-10-06 12:25:23,787 - INFO - root - Clearing cookies and storage after test.
+2025-10-06 12:25:23,826 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-06 12:25:24,772 - INFO - tests.test_login - ===== START: test_login with username='wrongUser' and password='admin123' =====
+2025-10-06 12:25:24,773 - INFO - pages.login_page - LoginPage initialized
+2025-10-06 12:25:24,773 - INFO - tests.test_login - Performing login with username='wrongUser' and password='admin123'
+2025-10-06 12:25:24,773 - INFO - pages.login_page - Attempting login with username: 'wrongUser'
+2025-10-06 12:25:26,117 - INFO - pages.login_page - Login button clicked
+2025-10-06 12:25:26,117 - INFO - tests.test_login - Expecting login to fail
+2025-10-06 12:25:27,683 - WARNING - pages.login_page - Login error message displayed: Invalid credentials
+2025-10-06 12:25:27,684 - WARNING - tests.test_login - Login failed as expected with error message: 'Invalid credentials'
+2025-10-06 12:25:27,684 - INFO - tests.test_login - ===== END: test_login with username='wrongUser' =====
+
+2025-10-06 12:25:27,686 - INFO - root - Clearing cookies and storage after test.
+2025-10-06 12:25:27,731 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-06 12:25:28,658 - INFO - tests.test_login - ===== START: test_login with username='' and password='admin123' =====
+2025-10-06 12:25:28,659 - INFO - pages.login_page - LoginPage initialized
+2025-10-06 12:25:28,659 - INFO - tests.test_login - Performing login with username='' and password='admin123'
+2025-10-06 12:25:28,660 - INFO - pages.login_page - Attempting login with username: ''
+2025-10-06 12:25:29,752 - INFO - pages.login_page - Login button clicked
+2025-10-06 12:25:29,753 - INFO - tests.test_login - Expecting login to fail
+2025-10-06 12:25:39,783 - INFO - pages.login_page - No login error message displayed
+2025-10-06 12:25:39,824 - INFO - tests.test_login - \u2705 Login failed as expected, required field message displayed
+2025-10-06 12:25:39,824 - INFO - tests.test_login - ===== END: test_login with username='' =====
+
+2025-10-06 12:25:39,826 - INFO - root - Clearing cookies and storage after test.
+2025-10-06 12:25:39,873 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-06 12:25:41,305 - INFO - tests.test_login - ===== START: test_login with username='Admin' and password='' =====
+2025-10-06 12:25:41,305 - INFO - pages.login_page - LoginPage initialized
+2025-10-06 12:25:41,306 - INFO - tests.test_login - Performing login with username='Admin' and password=''
+2025-10-06 12:25:41,306 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-06 12:25:42,684 - INFO - pages.login_page - Login button clicked
+2025-10-06 12:25:42,684 - INFO - tests.test_login - Expecting login to fail
+2025-10-06 12:25:52,717 - INFO - pages.login_page - No login error message displayed
+2025-10-06 12:25:52,792 - INFO - tests.test_login - \u2705 Login failed as expected, required field message displayed
+2025-10-06 12:25:52,793 - INFO - tests.test_login - ===== END: test_login with username='Admin' =====
+
+2025-10-06 12:25:52,797 - INFO - root - Clearing cookies and storage after test.
+2025-10-06 12:25:55,528 - INFO - root - Driver closed after session.

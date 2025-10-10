@@ -1,0 +1,14 @@
+2025-10-10 12:17:34,330 - INFO - root - ===== Test Session Started =====
+2025-10-10 12:17:34,692 - INFO - root - Initializing WebDriver for browser: chrome
+2025-10-10 12:17:34,692 - INFO - WDM - ====== WebDriver manager ======
+2025-10-10 12:17:40,775 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 12:17:41,115 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 12:17:41,336 - INFO - WDM - Driver [C:\Users\shahn\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-10 12:17:49,388 - INFO - root - Chrome WebDriver launched successfully.
+2025-10-10 12:17:52,183 - INFO - root - Driver configured with implicit wait and maximized window.
+2025-10-10 12:17:52,184 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-10 12:18:04,929 - INFO - pages.login_page - LoginPage initialized
+2025-10-10 12:18:04,957 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-10 12:18:11,037 - INFO - pages.login_page - Login button clicked
+2025-10-10 12:18:34,308 - INFO - root - Clearing cookies and storage after test.
+2025-10-10 12:18:36,961 - INFO - root - Driver closed after session.

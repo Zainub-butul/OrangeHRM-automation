@@ -1,0 +1,87 @@
+2025-10-10 12:29:39,216 - INFO - root - ===== Test Session Started =====
+2025-10-10 12:29:39,961 - INFO - root - Initializing WebDriver for browser: chrome
+2025-10-10 12:29:39,961 - INFO - WDM - ====== WebDriver manager ======
+2025-10-10 12:29:42,503 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 12:29:42,780 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 12:29:43,012 - INFO - WDM - Driver [C:\Users\shahn\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-10 12:29:46,642 - INFO - root - Chrome WebDriver launched successfully.
+2025-10-10 12:29:47,151 - INFO - root - Driver configured with implicit wait and maximized window.
+2025-10-10 12:29:47,152 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-10 12:29:54,245 - INFO - pages.login_page - LoginPage initialized
+2025-10-10 12:29:54,245 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-10 12:29:55,763 - INFO - pages.login_page - Login button clicked
+2025-10-10 12:30:19,952 - ERROR - root - Test FAILED: test_add_user. Screenshot saved at screenshots/test_add_user_20251010_123019.png
+2025-10-10 12:30:19,965 - INFO - root - Clearing cookies and storage after test.
+2025-10-10 12:30:20,130 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-10 12:30:22,095 - INFO - pages.login_page - LoginPage initialized
+2025-10-10 12:30:22,096 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-10 12:30:23,292 - INFO - pages.login_page - Login button clicked
+2025-10-10 12:30:23,293 - INFO - pages.dashboard_page - DashboardPage initialized
+2025-10-10 12:30:23,293 - INFO - pages.dashboard_page - Navigating to PIM page
+2025-10-10 12:30:31,818 - INFO - root - Clearing cookies and storage after test.
+2025-10-10 12:30:32,028 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-10 12:30:33,321 - INFO - pages.login_page - LoginPage initialized
+2025-10-10 12:30:33,321 - INFO - pages.dashboard_page - DashboardPage initialized
+2025-10-10 12:30:33,321 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-10 12:30:35,617 - INFO - pages.login_page - Login button clicked
+2025-10-10 12:30:36,196 - INFO - pages.dashboard_page - Dashboard displayed: True
+2025-10-10 12:30:36,196 - INFO - pages.dashboard_page - Navigating to PIM page
+2025-10-10 12:30:46,739 - INFO - root - Clearing cookies and storage after test.
+2025-10-10 12:30:55,714 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-10 12:30:58,342 - INFO - pages.login_page - LoginPage initialized
+2025-10-10 12:30:58,342 - INFO - pages.dashboard_page - DashboardPage initialized
+2025-10-10 12:30:58,342 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-10 12:31:05,817 - INFO - pages.login_page - Login button clicked
+2025-10-10 12:31:05,818 - INFO - pages.dashboard_page - Navigating to PIM page
+2025-10-10 12:31:16,378 - INFO - root - Clearing cookies and storage after test.
+2025-10-10 12:31:16,606 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-10 12:31:17,421 - INFO - pages.login_page - LoginPage initialized
+2025-10-10 12:31:17,421 - INFO - pages.dashboard_page - DashboardPage initialized
+2025-10-10 12:31:17,422 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-10 12:31:19,789 - INFO - pages.login_page - Login button clicked
+2025-10-10 12:31:19,789 - INFO - pages.dashboard_page - Navigating to PIM page
+2025-10-10 12:31:39,842 - INFO - root - Clearing cookies and storage after test.
+2025-10-10 12:31:40,196 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-10 12:31:42,191 - INFO - pages.login_page - LoginPage initialized
+2025-10-10 12:31:42,191 - INFO - pages.dashboard_page - DashboardPage initialized
+2025-10-10 12:31:42,191 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-10 12:31:43,600 - INFO - pages.login_page - Login button clicked
+2025-10-10 12:31:43,600 - INFO - pages.dashboard_page - Navigating to PIM page
+2025-10-10 12:31:59,551 - INFO - root - Clearing cookies and storage after test.
+2025-10-10 12:31:59,840 - INFO - WDM - ====== WebDriver manager ======
+2025-10-10 12:32:04,620 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 12:32:05,233 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 12:32:05,609 - INFO - WDM - Driver [C:\Users\shahn\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-10 12:32:18,009 - INFO - pages.login_page - LoginPage initialized
+2025-10-10 12:32:18,009 - INFO - pages.dashboard_page - DashboardPage initialized
+2025-10-10 12:32:18,009 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-10 12:32:24,968 - INFO - pages.login_page - Login button clicked
+2025-10-10 12:32:24,968 - INFO - pages.dashboard_page - Navigating to PIM page
+2025-10-10 12:32:58,118 - ERROR - root - Test FAILED: test_add_multiple_employees_with_different_data[Alice-Johnson-False]. No driver available to capture screenshot.
+2025-10-10 12:33:01,239 - INFO - WDM - ====== WebDriver manager ======
+2025-10-10 12:33:03,985 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 12:33:04,197 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 12:33:04,437 - INFO - WDM - Driver [C:\Users\shahn\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-10 12:33:17,681 - INFO - pages.login_page - LoginPage initialized
+2025-10-10 12:33:17,682 - INFO - pages.dashboard_page - DashboardPage initialized
+2025-10-10 12:33:17,682 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-10 12:33:19,367 - INFO - pages.login_page - Login button clicked
+2025-10-10 12:33:19,368 - INFO - pages.dashboard_page - Navigating to PIM page
+2025-10-10 12:33:40,411 - INFO - WDM - ====== WebDriver manager ======
+2025-10-10 12:33:47,011 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 12:33:47,383 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 12:33:48,359 - INFO - WDM - Driver [C:\Users\shahn\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-10 12:34:00,722 - INFO - pages.login_page - LoginPage initialized
+2025-10-10 12:34:00,722 - INFO - pages.dashboard_page - DashboardPage initialized
+2025-10-10 12:34:00,722 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-10 12:34:07,332 - INFO - pages.login_page - Login button clicked
+2025-10-10 12:34:07,333 - INFO - pages.dashboard_page - Navigating to PIM page
+2025-10-10 12:35:00,262 - ERROR - root - Test FAILED: test_add_multiple_employees_with_different_data[Carol-Davis-False]. No driver available to capture screenshot.
+2025-10-10 12:35:08,134 - INFO - WDM - ====== WebDriver manager ======
+2025-10-10 12:35:13,047 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 12:35:13,515 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 12:35:14,314 - INFO - WDM - Driver [C:\Users\shahn\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-10 12:35:31,860 - WARNING - urllib3.connectionpool - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000295F1558C20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/5d6e594d24cb4a5b37f2905fe80efe63
+2025-10-10 12:35:35,909 - WARNING - urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000295F14EC5F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/5d6e594d24cb4a5b37f2905fe80efe63
+2025-10-10 12:35:40,013 - WARNING - urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000295F1562360>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/5d6e594d24cb4a5b37f2905fe80efe63
+2025-10-10 12:35:44,112 - INFO - root - Driver closed after session.

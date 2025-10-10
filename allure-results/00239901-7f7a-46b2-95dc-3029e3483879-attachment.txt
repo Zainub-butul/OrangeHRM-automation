@@ -1,0 +1,16 @@
+[32mINFO    [0m tests.Dashboard.test_profile_name_displayed:test_profile_name_displayed.py:27 🚀 Starting browser for login fixture...
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\shahn\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+[32mINFO    [0m tests.Dashboard.test_profile_name_displayed:test_profile_name_displayed.py:34 🌍 Navigating to URL: https://opensource-demo.orangehrmlive.com/
+[32mINFO    [0m tests.Dashboard.test_profile_name_displayed:test_profile_name_displayed.py:38 🔑 Entering login credentials...
+[32mINFO    [0m tests.Dashboard.test_profile_name_displayed:test_profile_name_displayed.py:46 ⏳ Waiting for Dashboard page to load...
+[32mINFO    [0m tests.Dashboard.test_profile_name_displayed:test_profile_name_displayed.py:50 ✅ Successfully logged in and Dashboard loaded.
+[32mINFO    [0m tests.Dashboard.test_profile_name_displayed:test_profile_name_displayed.py:61 ===== START: test_profile_name_displayed =====
+[32mINFO    [0m pages.dashboard_page:dashboard_page.py:27 DashboardPage initialized
+[32mINFO    [0m pages.dashboard_page:dashboard_page.py:58 Profile name: John weak
+[32mINFO    [0m tests.Dashboard.test_profile_name_displayed:test_profile_name_displayed.py:66 🔎 Profile name displayed: John weak
+[32mINFO    [0m tests.Dashboard.test_profile_name_displayed:test_profile_name_displayed.py:70 ✅ Profile name validated successfully.
+[32mINFO    [0m tests.Dashboard.test_profile_name_displayed:test_profile_name_displayed.py:71 ===== END: test_profile_name_displayed =====
+[32mINFO    [0m tests.Dashboard.test_profile_name_displayed:test_profile_name_displayed.py:54 🛑 Closing browser after test execution.

@@ -1,0 +1,23 @@
+
+>>> Test: Add Employee with Basic Details Only
+>>> Logging in
+✅ Login successful
+>>> Navigating to PIM > Add Employee
+>>> Checking if current page is PIM
+>>> Breadcrumb text found: 'PIM'
+✅ Is PIM page: True
+>>> Navigating to Add Employee page
+✅ Clicked on Add Employee menu
+>>> Checking if Add Employee page is loaded
+✅ Add Employee page loaded: True
+>>> Filling employee details: DQiVnn LNzlzPzz
+>>> Filling First Name: DQiVnn
+>>> Filling Last Name: LNzlzPzz
+>>> Waiting for Employee ID to auto-generate
+>>> Retrieved Employee ID: 0393
+✅ Auto-generated Employee ID: 0393
+>>> Retrieved Employee ID: 0393
+>>> Clicking Save button
+✅ Employee saved
+>>> Success message text: Success
+✅ Employee created: DQiVnn LNzlzPzz (ID: 0393)

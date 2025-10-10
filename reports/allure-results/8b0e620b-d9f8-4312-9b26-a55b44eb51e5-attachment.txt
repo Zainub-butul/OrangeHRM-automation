@@ -1,0 +1,49 @@
+
+>>> Test: Add Employee - Alice Johnson
+>>> Navigating to Add Employee page
+✅ Clicked on Add Employee menu
+>>> Creating employee: Alice  Johnson
+>>> Filling First Name: Alice
+>>> Filling Last Name: Johnson
+>>> Waiting for Employee ID to auto-generate
+>>> Retrieved Employee ID: 0401
+✅ Auto-generated Employee ID: 0401
+>>> Retrieved Employee ID: 0401
+>>> Clicking Save button
+✅ Employee saved
+>>> Success message text: Success
+✅ Employee created successfully: Alice  Johnson (ID: 0401)
+>>> Navigating to Add Employee page
+⚠️ Failed to navigate to Add Employee: Message: stale element reference: stale element not found
+  (Session info: chrome=140.0.7339.208); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x57c333+65459]
+	GetHandleVerifier [0x0x57c374+65524]
+	(No symbol) [0x0x39d973]
+	(No symbol) [0x0x3af961]
+	(No symbol) [0x0x3aea30]
+	(No symbol) [0x0x3a4e1c]
+	(No symbol) [0x0x3a3321]
+	(No symbol) [0x0x3a6734]
+	(No symbol) [0x0x3a67c8]
+	(No symbol) [0x0x3e941a]
+	(No symbol) [0x0x3dd11a]
+	(No symbol) [0x0x409dfc]
+	(No symbol) [0x0x3dcbf4]
+	(No symbol) [0x0x409fb4]
+	(No symbol) [0x0x42b606]
+	(No symbol) [0x0x409bf6]
+	(No symbol) [0x0x3db38e]
+	(No symbol) [0x0x3dc274]
+	GetHandleVerifier [0x0x7feda3+2697763]
+	GetHandleVerifier [0x0x7f9ec7+2677575]
+	GetHandleVerifier [0x0x5a4194+228884]
+	GetHandleVerifier [0x0x5949f8+165496]
+	GetHandleVerifier [0x0x59b18d+192013]
+	GetHandleVerifier [0x0x5847d8+99416]
+	GetHandleVerifier [0x0x584972+99826]
+	GetHandleVerifier [0x0x56ebea+10346]
+	BaseThreadInitThunk [0x0x76307ba9+25]
+	RtlInitializeExceptionChain [0x0x7788c2eb+107]
+	RtlClearBits [0x0x7788c26f+191]
+

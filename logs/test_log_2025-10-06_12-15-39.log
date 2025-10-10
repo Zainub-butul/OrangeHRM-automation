@@ -1,0 +1,83 @@
+2025-10-06 12:15:39,570 - INFO - root - ===== Test Session Started =====
+2025-10-06 12:15:39,825 - INFO - tests.test_dashboard - \U0001f680 Starting browser for login fixture...
+2025-10-06 12:15:39,826 - INFO - WDM - ====== WebDriver manager ======
+2025-10-06 12:15:45,115 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-06 12:15:45,318 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-06 12:15:45,492 - INFO - WDM - Driver [C:\Users\shahn\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-06 12:15:51,708 - INFO - tests.test_dashboard - \U0001f30d Navigating to URL: https://opensource-demo.orangehrmlive.com/
+2025-10-06 12:16:04,063 - INFO - tests.test_dashboard - \U0001f511 Entering login credentials...
+2025-10-06 12:16:07,858 - INFO - tests.test_dashboard - \u23f3 Waiting for Dashboard page to load...
+2025-10-06 12:16:09,866 - INFO - tests.test_dashboard - \u2705 Successfully logged in and Dashboard loaded.
+2025-10-06 12:16:09,868 - INFO - tests.test_dashboard - ===== START: test_dashboard_header =====
+2025-10-06 12:16:09,868 - INFO - pages.dashboard_page - DashboardPage initialized
+2025-10-06 12:16:09,911 - INFO - pages.dashboard_page - Dashboard displayed: True
+2025-10-06 12:16:09,911 - INFO - tests.test_dashboard - \u2705 Dashboard header is visible.
+2025-10-06 12:16:09,912 - INFO - tests.test_dashboard - ===== END: test_dashboard_header =====
+
+2025-10-06 12:16:09,957 - INFO - tests.test_dashboard - \U0001f6d1 Closing browser after test execution.
+2025-10-06 12:16:12,969 - INFO - tests.test_dashboard - \U0001f680 Starting browser for login fixture...
+2025-10-06 12:16:12,969 - INFO - WDM - ====== WebDriver manager ======
+2025-10-06 12:16:15,613 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-06 12:16:15,733 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-06 12:16:15,834 - INFO - WDM - Driver [C:\Users\shahn\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-06 12:16:20,058 - INFO - tests.test_dashboard - \U0001f30d Navigating to URL: https://opensource-demo.orangehrmlive.com/
+2025-10-06 12:16:33,357 - INFO - tests.test_dashboard - \U0001f511 Entering login credentials...
+2025-10-06 12:16:45,126 - INFO - tests.test_dashboard - \u23f3 Waiting for Dashboard page to load...
+2025-10-06 12:16:48,629 - INFO - tests.test_dashboard - \u2705 Successfully logged in and Dashboard loaded.
+2025-10-06 12:16:48,630 - INFO - tests.test_dashboard - ===== START: test_quick_launch_items =====
+2025-10-06 12:16:48,631 - INFO - pages.dashboard_page - DashboardPage initialized
+2025-10-06 12:16:49,964 - INFO - pages.dashboard_page - Quick launch items found: ['Assign Leave']
+2025-10-06 12:16:49,964 - INFO - tests.test_dashboard - \U0001f50e Quick Launch items found: ['Assign Leave']
+2025-10-06 12:16:49,964 - INFO - tests.test_dashboard - \u2705 Quick Launch items validated successfully.
+2025-10-06 12:16:49,964 - INFO - tests.test_dashboard - ===== END: test_quick_launch_items =====
+
+2025-10-06 12:16:49,970 - INFO - tests.test_dashboard - \U0001f6d1 Closing browser after test execution.
+2025-10-06 12:16:52,748 - INFO - tests.test_dashboard - \U0001f680 Starting browser for login fixture...
+2025-10-06 12:16:52,749 - INFO - WDM - ====== WebDriver manager ======
+2025-10-06 12:16:55,462 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-06 12:16:55,558 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-06 12:16:55,652 - INFO - WDM - Driver [C:\Users\shahn\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-06 12:16:58,929 - INFO - tests.test_dashboard - \U0001f30d Navigating to URL: https://opensource-demo.orangehrmlive.com/
+2025-10-06 12:17:06,811 - INFO - tests.test_dashboard - \U0001f511 Entering login credentials...
+2025-10-06 12:17:08,658 - INFO - tests.test_dashboard - \u23f3 Waiting for Dashboard page to load...
+2025-10-06 12:17:11,051 - INFO - tests.test_dashboard - \u2705 Successfully logged in and Dashboard loaded.
+2025-10-06 12:17:11,054 - INFO - tests.test_dashboard - ===== START: test_employee_distribution_graph_is_displayed =====
+2025-10-06 12:17:11,054 - INFO - pages.dashboard_page - DashboardPage initialized
+2025-10-06 12:17:11,097 - INFO - pages.dashboard_page - Employee graph is displayed
+2025-10-06 12:17:11,097 - INFO - tests.test_dashboard - \u2705 Employee Distribution graph is displayed.
+2025-10-06 12:17:11,097 - INFO - tests.test_dashboard - ===== END: test_employee_distribution_graph_is_displayed =====
+
+2025-10-06 12:17:11,099 - INFO - tests.test_dashboard - \U0001f6d1 Closing browser after test execution.
+2025-10-06 12:17:13,691 - INFO - tests.test_dashboard - \U0001f680 Starting browser for login fixture...
+2025-10-06 12:17:13,691 - INFO - WDM - ====== WebDriver manager ======
+2025-10-06 12:17:16,517 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-06 12:17:16,621 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-06 12:17:16,741 - INFO - WDM - Driver [C:\Users\shahn\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-06 12:17:19,630 - INFO - tests.test_dashboard - \U0001f30d Navigating to URL: https://opensource-demo.orangehrmlive.com/
+2025-10-06 12:17:39,615 - INFO - tests.test_dashboard - \U0001f511 Entering login credentials...
+2025-10-06 12:17:42,484 - INFO - tests.test_dashboard - \u23f3 Waiting for Dashboard page to load...
+2025-10-06 12:17:45,774 - INFO - tests.test_dashboard - \u2705 Successfully logged in and Dashboard loaded.
+2025-10-06 12:17:45,775 - INFO - tests.test_dashboard - ===== START: test_profile_name_displayed =====
+2025-10-06 12:17:45,776 - INFO - pages.dashboard_page - DashboardPage initialized
+2025-10-06 12:17:45,836 - INFO - pages.dashboard_page - Profile name: gaurav gupta
+2025-10-06 12:17:45,837 - INFO - tests.test_dashboard - \U0001f50e Profile name displayed: gaurav gupta
+2025-10-06 12:17:45,837 - INFO - tests.test_dashboard - \u2705 Profile name validated successfully.
+2025-10-06 12:17:45,837 - INFO - tests.test_dashboard - ===== END: test_profile_name_displayed =====
+
+2025-10-06 12:17:45,839 - INFO - tests.test_dashboard - \U0001f6d1 Closing browser after test execution.
+2025-10-06 12:17:48,215 - INFO - tests.test_dashboard - \U0001f680 Starting browser for login fixture...
+2025-10-06 12:17:48,215 - INFO - WDM - ====== WebDriver manager ======
+2025-10-06 12:17:50,917 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-06 12:17:51,007 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-06 12:17:51,091 - INFO - WDM - Driver [C:\Users\shahn\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-06 12:17:53,692 - INFO - tests.test_dashboard - \U0001f30d Navigating to URL: https://opensource-demo.orangehrmlive.com/
+2025-10-06 12:18:01,873 - INFO - tests.test_dashboard - \U0001f511 Entering login credentials...
+2025-10-06 12:18:03,512 - INFO - tests.test_dashboard - \u23f3 Waiting for Dashboard page to load...
+2025-10-06 12:18:05,666 - INFO - tests.test_dashboard - \u2705 Successfully logged in and Dashboard loaded.
+2025-10-06 12:18:05,668 - INFO - tests.test_dashboard - ===== START: test_logout_option_available =====
+2025-10-06 12:18:05,668 - INFO - pages.dashboard_page - DashboardPage initialized
+2025-10-06 12:18:05,668 - INFO - tests.test_dashboard - \U0001f50e Opening profile menu to verify logout option...
+2025-10-06 12:18:05,916 - INFO - pages.dashboard_page - Opening profile menu
+2025-10-06 12:18:06,379 - INFO - pages.dashboard_page - Logout option available: False
+2025-10-06 12:18:06,841 - ERROR - root - Test FAILED: test_logout_option_available. No driver available to capture screenshot.
+2025-10-06 12:18:06,842 - INFO - tests.test_dashboard - \U0001f6d1 Closing browser after test execution.

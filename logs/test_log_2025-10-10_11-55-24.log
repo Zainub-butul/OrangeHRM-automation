@@ -1,0 +1,21 @@
+2025-10-10 11:55:24,287 - INFO - root - ===== Test Session Started =====
+2025-10-10 11:55:24,592 - INFO - root - Initializing WebDriver for browser: chrome
+2025-10-10 11:55:24,592 - INFO - WDM - ====== WebDriver manager ======
+2025-10-10 11:55:30,624 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 11:55:31,012 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 11:55:31,210 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 11:55:32,329 - INFO - WDM - WebDriver version 140.0.7339.207 selected
+2025-10-10 11:55:32,341 - INFO - WDM - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.207/win32/chromedriver-win32.zip
+2025-10-10 11:55:32,341 - INFO - WDM - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.207/win32/chromedriver-win32.zip
+2025-10-10 11:55:32,857 - INFO - WDM - Driver downloading response is 200
+2025-10-10 11:55:38,078 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 11:55:38,703 - INFO - WDM - Driver has been saved in cache [C:\Users\shahn\.wdm\drivers\chromedriver\win64\140.0.7339.207]
+2025-10-10 11:55:45,969 - INFO - root - Chrome WebDriver launched successfully.
+2025-10-10 11:55:48,297 - INFO - root - Driver configured with implicit wait and maximized window.
+2025-10-10 11:55:48,299 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-10 11:55:57,961 - INFO - pages.login_page - LoginPage initialized
+2025-10-10 11:55:57,961 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-10 11:56:00,767 - INFO - pages.login_page - Login button clicked
+2025-10-10 11:56:12,131 - ERROR - root - Test FAILED: test_add_vacancy. Screenshot saved at screenshots/test_add_vacancy_20251010_115611.png
+2025-10-10 11:56:12,134 - INFO - root - Clearing cookies and storage after test.
+2025-10-10 11:56:28,174 - INFO - root - Driver closed after session.

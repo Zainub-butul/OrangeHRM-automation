@@ -1,0 +1,9 @@
+
+>>> Test: Employee Validation Errors
+>>> Navigating to Add Employee page
+✅ Clicked on Add Employee menu
+>>> Attempting to save employee without required fields
+>>> Clicking Save button
+✅ Employee saved
+>>> Error messages: ['Required', 'Required']
+✅ Validation working - Found 2 error(s): ['Required', 'Required']

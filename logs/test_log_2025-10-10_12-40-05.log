@@ -1,0 +1,293 @@
+2025-10-10 12:40:05,889 - INFO - root - ===== Test Session Started =====
+2025-10-10 12:40:06,658 - INFO - root - Initializing WebDriver for browser: chrome
+2025-10-10 12:40:06,658 - INFO - WDM - ====== WebDriver manager ======
+2025-10-10 12:40:09,654 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 12:40:09,890 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 12:40:10,102 - INFO - WDM - Driver [C:\Users\shahn\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-10 12:40:15,240 - INFO - root - Chrome WebDriver launched successfully.
+2025-10-10 12:40:16,580 - INFO - root - Driver configured with implicit wait and maximized window.
+2025-10-10 12:40:16,581 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-10 12:40:31,174 - INFO - pages.login_page - LoginPage initialized
+2025-10-10 12:40:31,174 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-10 12:40:35,179 - INFO - pages.login_page - Login button clicked
+2025-10-10 12:40:58,324 - INFO - root - Clearing cookies and storage after test.
+2025-10-10 12:40:58,390 - INFO - tests.Dashboard.test_dashboard_header - \U0001f680 Starting browser for login fixture...
+2025-10-10 12:40:58,391 - INFO - WDM - ====== WebDriver manager ======
+2025-10-10 12:41:02,079 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 12:41:02,317 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 12:41:02,631 - INFO - WDM - Driver [C:\Users\shahn\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-10 12:41:06,497 - INFO - tests.Dashboard.test_dashboard_header - \U0001f30d Navigating to URL: https://opensource-demo.orangehrmlive.com/
+2025-10-10 12:41:12,322 - INFO - tests.Dashboard.test_dashboard_header - \U0001f511 Entering login credentials...
+2025-10-10 12:41:13,813 - INFO - tests.Dashboard.test_dashboard_header - \u23f3 Waiting for Dashboard page to load...
+2025-10-10 12:41:16,481 - INFO - tests.Dashboard.test_dashboard_header - \u2705 Successfully logged in and Dashboard loaded.
+2025-10-10 12:41:16,483 - INFO - tests.Dashboard.test_dashboard_header - ===== START: test_dashboard_header =====
+2025-10-10 12:41:16,483 - INFO - pages.dashboard_page - DashboardPage initialized
+2025-10-10 12:41:18,388 - INFO - pages.dashboard_page - Dashboard displayed: True
+2025-10-10 12:41:18,388 - INFO - tests.Dashboard.test_dashboard_header - \u2705 Dashboard header is visible.
+2025-10-10 12:41:18,388 - INFO - tests.Dashboard.test_dashboard_header - ===== END: test_dashboard_header =====
+
+2025-10-10 12:41:18,593 - INFO - tests.Dashboard.test_dashboard_header - \U0001f6d1 Closing browser after test execution.
+2025-10-10 12:41:21,647 - INFO - tests.Dashboard.test_employee_distribution_graph_is_displayed - \U0001f680 Starting browser for login fixture...
+2025-10-10 12:41:21,647 - INFO - WDM - ====== WebDriver manager ======
+2025-10-10 12:41:29,266 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 12:41:29,501 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 12:41:29,882 - INFO - WDM - Driver [C:\Users\shahn\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-10 12:41:35,524 - INFO - tests.Dashboard.test_employee_distribution_graph_is_displayed - \U0001f30d Navigating to URL: https://opensource-demo.orangehrmlive.com/
+2025-10-10 12:41:38,108 - INFO - tests.Dashboard.test_employee_distribution_graph_is_displayed - \U0001f511 Entering login credentials...
+2025-10-10 12:41:44,972 - INFO - tests.Dashboard.test_employee_distribution_graph_is_displayed - \u23f3 Waiting for Dashboard page to load...
+2025-10-10 12:41:46,932 - INFO - tests.Dashboard.test_employee_distribution_graph_is_displayed - \u2705 Successfully logged in and Dashboard loaded.
+2025-10-10 12:41:46,934 - INFO - tests.Dashboard.test_employee_distribution_graph_is_displayed - ===== START: test_employee_distribution_graph_is_displayed =====
+2025-10-10 12:41:46,935 - INFO - pages.dashboard_page - DashboardPage initialized
+2025-10-10 12:41:47,012 - INFO - pages.dashboard_page - Employee graph is displayed
+2025-10-10 12:41:47,012 - INFO - tests.Dashboard.test_employee_distribution_graph_is_displayed - \u2705 Employee Distribution graph is displayed.
+2025-10-10 12:41:47,012 - INFO - tests.Dashboard.test_employee_distribution_graph_is_displayed - ===== END: test_employee_distribution_graph_is_displayed =====
+
+2025-10-10 12:41:47,013 - INFO - tests.Dashboard.test_employee_distribution_graph_is_displayed - \U0001f6d1 Closing browser after test execution.
+2025-10-10 12:41:50,148 - INFO - tests.Dashboard.test_logout_option_available - \U0001f680 Starting browser for login fixture...
+2025-10-10 12:41:50,149 - INFO - WDM - ====== WebDriver manager ======
+2025-10-10 12:41:52,904 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 12:41:53,188 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 12:41:53,779 - INFO - WDM - Driver [C:\Users\shahn\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-10 12:41:57,415 - INFO - tests.Dashboard.test_logout_option_available - \U0001f30d Navigating to URL: https://opensource-demo.orangehrmlive.com/
+2025-10-10 12:42:03,783 - INFO - tests.Dashboard.test_logout_option_available - \U0001f511 Entering login credentials...
+2025-10-10 12:42:07,115 - INFO - tests.Dashboard.test_logout_option_available - \u23f3 Waiting for Dashboard page to load...
+2025-10-10 12:42:08,365 - INFO - tests.Dashboard.test_logout_option_available - \u2705 Successfully logged in and Dashboard loaded.
+2025-10-10 12:42:08,366 - INFO - tests.Dashboard.test_logout_option_available - ===== START: test_logout_option_available =====
+2025-10-10 12:42:08,367 - INFO - pages.dashboard_page - DashboardPage initialized
+2025-10-10 12:42:08,367 - INFO - tests.Dashboard.test_logout_option_available - \U0001f50e Opening profile menu to verify logout option...
+2025-10-10 12:42:08,600 - INFO - pages.dashboard_page - Opening profile menu
+2025-10-10 12:42:08,892 - INFO - pages.dashboard_page - Logout option available: True
+2025-10-10 12:42:08,893 - INFO - tests.Dashboard.test_logout_option_available - \u2705 Logout option is available.
+2025-10-10 12:42:08,893 - INFO - tests.Dashboard.test_logout_option_available - ===== END: test_logout_option_available =====
+
+2025-10-10 12:42:08,895 - INFO - tests.Dashboard.test_logout_option_available - \U0001f6d1 Closing browser after test execution.
+2025-10-10 12:42:12,632 - INFO - tests.Dashboard.test_profile_name_displayed - \U0001f680 Starting browser for login fixture...
+2025-10-10 12:42:12,633 - INFO - WDM - ====== WebDriver manager ======
+2025-10-10 12:42:15,150 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 12:42:15,421 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 12:42:15,577 - INFO - WDM - Driver [C:\Users\shahn\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-10 12:42:19,224 - INFO - tests.Dashboard.test_profile_name_displayed - \U0001f30d Navigating to URL: https://opensource-demo.orangehrmlive.com/
+2025-10-10 12:42:23,745 - INFO - tests.Dashboard.test_profile_name_displayed - \U0001f511 Entering login credentials...
+2025-10-10 12:42:25,626 - INFO - tests.Dashboard.test_profile_name_displayed - \u23f3 Waiting for Dashboard page to load...
+2025-10-10 12:42:27,822 - INFO - tests.Dashboard.test_profile_name_displayed - \u2705 Successfully logged in and Dashboard loaded.
+2025-10-10 12:42:27,823 - INFO - tests.Dashboard.test_profile_name_displayed - ===== START: test_profile_name_displayed =====
+2025-10-10 12:42:27,823 - INFO - pages.dashboard_page - DashboardPage initialized
+2025-10-10 12:42:27,987 - INFO - pages.dashboard_page - Profile name: John weak
+2025-10-10 12:42:27,988 - INFO - tests.Dashboard.test_profile_name_displayed - \U0001f50e Profile name displayed: John weak
+2025-10-10 12:42:27,988 - INFO - tests.Dashboard.test_profile_name_displayed - \u2705 Profile name validated successfully.
+2025-10-10 12:42:27,988 - INFO - tests.Dashboard.test_profile_name_displayed - ===== END: test_profile_name_displayed =====
+
+2025-10-10 12:42:28,009 - INFO - tests.Dashboard.test_profile_name_displayed - \U0001f6d1 Closing browser after test execution.
+2025-10-10 12:42:30,746 - INFO - tests.Dashboard.test_quick_launch_items - \U0001f680 Starting browser for login fixture...
+2025-10-10 12:42:30,747 - INFO - WDM - ====== WebDriver manager ======
+2025-10-10 12:42:33,106 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 12:42:33,290 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 12:42:33,672 - INFO - WDM - Driver [C:\Users\shahn\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-10 12:42:37,229 - INFO - tests.Dashboard.test_quick_launch_items - \U0001f30d Navigating to URL: https://opensource-demo.orangehrmlive.com/
+2025-10-10 12:42:43,187 - INFO - tests.Dashboard.test_quick_launch_items - \U0001f511 Entering login credentials...
+2025-10-10 12:42:45,525 - INFO - tests.Dashboard.test_quick_launch_items - \u23f3 Waiting for Dashboard page to load...
+2025-10-10 12:42:47,636 - INFO - tests.Dashboard.test_quick_launch_items - \u2705 Successfully logged in and Dashboard loaded.
+2025-10-10 12:42:47,637 - INFO - tests.Dashboard.test_quick_launch_items - ===== START: test_quick_launch_items =====
+2025-10-10 12:42:47,638 - INFO - pages.dashboard_page - DashboardPage initialized
+2025-10-10 12:42:49,611 - INFO - pages.dashboard_page - Quick launch items found: ['Assign Leave']
+2025-10-10 12:42:49,611 - INFO - tests.Dashboard.test_quick_launch_items - \U0001f50e Quick Launch items found: ['Assign Leave']
+2025-10-10 12:42:49,611 - INFO - tests.Dashboard.test_quick_launch_items - \u2705 Quick Launch items validated successfully.
+2025-10-10 12:42:49,612 - INFO - tests.Dashboard.test_quick_launch_items - ===== END: test_quick_launch_items =====
+
+2025-10-10 12:42:49,615 - INFO - tests.Dashboard.test_quick_launch_items - \U0001f6d1 Closing browser after test execution.
+2025-10-10 12:42:53,277 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-10 12:42:54,825 - INFO - pages.login_page - LoginPage initialized
+2025-10-10 12:42:54,826 - INFO - pages.leave_admin_page - LeaveAdminPage initialized.
+2025-10-10 12:42:54,826 - INFO - tests.Leave.test_admin_create_leave - Starting test: Create Leave Type and Assign Entitlement
+2025-10-10 12:42:54,826 - INFO - tests.Leave.test_admin_create_leave - Logging in as Admin: Admin
+2025-10-10 12:42:54,826 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-10 12:42:57,369 - INFO - pages.login_page - Login button clicked
+2025-10-10 12:42:57,369 - INFO - tests.Leave.test_admin_create_leave - Login successful.
+2025-10-10 12:42:57,369 - INFO - tests.Leave.test_admin_create_leave - Navigating to Leave Types page.
+2025-10-10 12:42:57,369 - INFO - pages.leave_admin_page - Navigating to Leave Types page...
+2025-10-10 12:42:59,186 - INFO - pages.leave_admin_page - Clicked Leave menu.
+2025-10-10 12:42:59,905 - INFO - pages.leave_admin_page - Clicked Configure menu.
+2025-10-10 12:43:00,853 - INFO - pages.leave_admin_page - Clicked Leave Types.
+2025-10-10 12:43:00,853 - INFO - tests.Leave.test_admin_create_leave - Adding new leave type: 'happy Leave'
+2025-10-10 12:43:00,853 - INFO - pages.leave_admin_page - Adding new leave type: happy Leave
+2025-10-10 12:43:02,173 - INFO - pages.leave_admin_page - Clicked Add button.
+2025-10-10 12:43:02,715 - INFO - pages.leave_admin_page - Add Leave Type popup appeared.
+2025-10-10 12:43:02,822 - INFO - pages.leave_admin_page - Cleared leave type name input.
+2025-10-10 12:43:03,035 - INFO - pages.leave_admin_page - Entered leave type name: happy Leave
+2025-10-10 12:43:03,181 - INFO - pages.leave_admin_page - Clicked Save button for leave type.
+2025-10-10 12:43:05,191 - INFO - pages.leave_admin_page - Leave type added successfully. Toast message: 'Success
+Successfully Saved'
+2025-10-10 12:43:05,192 - INFO - tests.Leave.test_admin_create_leave - Leave type creation toast message: 'Success
+Successfully Saved'
+2025-10-10 12:43:05,192 - INFO - tests.Leave.test_admin_create_leave - Leave type added successfully.
+2025-10-10 12:43:05,192 - INFO - tests.Leave.test_admin_create_leave - Assigning entitlement to employee 'John A doe'.
+2025-10-10 12:43:05,195 - INFO - pages.leave_admin_page - Adding entitlement for employee 'John A Doe', leave type 'happy Leave', days '10'
+2025-10-10 12:43:06,503 - INFO - pages.leave_admin_page - Clicked Leave menu.
+2025-10-10 12:43:07,205 - INFO - pages.leave_admin_page - Clicked Entitlements menu.
+2025-10-10 12:43:08,641 - INFO - pages.leave_admin_page - Clicked Add Entitlements.
+2025-10-10 12:43:10,186 - INFO - pages.leave_admin_page - Entered employee name: John A Doe
+2025-10-10 12:43:21,632 - ERROR - root - Test FAILED: test_create_leave_type_and_assign_entitlement. Screenshot saved at screenshots/test_create_leave_type_and_assign_entitlement_20251010_124321.png
+2025-10-10 12:43:21,634 - INFO - root - Clearing cookies and storage after test.
+2025-10-10 12:43:21,712 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-10 12:43:23,188 - INFO - tests.Login.test_login - ===== START: test_login with username='Admin' and password='admin123' =====
+2025-10-10 12:43:23,188 - INFO - pages.login_page - LoginPage initialized
+2025-10-10 12:43:23,189 - INFO - tests.Login.test_login - Performing login with username='Admin' and password='admin123'
+2025-10-10 12:43:23,189 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-10 12:43:24,224 - INFO - pages.login_page - Login button clicked
+2025-10-10 12:43:24,224 - INFO - tests.Login.test_login - Expecting a successful login
+2025-10-10 12:43:26,104 - INFO - tests.Login.test_login - \u2705 Login successful, Dashboard header displayed and URL verified
+2025-10-10 12:43:26,104 - INFO - tests.Login.test_login - ===== END: test_login with username='Admin' =====
+
+2025-10-10 12:43:26,122 - INFO - root - Clearing cookies and storage after test.
+2025-10-10 12:43:26,212 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-10 12:43:27,198 - INFO - tests.Login.test_login - ===== START: test_login with username='Admin' and password='wrongPass' =====
+2025-10-10 12:43:27,198 - INFO - pages.login_page - LoginPage initialized
+2025-10-10 12:43:27,199 - INFO - tests.Login.test_login - Performing login with username='Admin' and password='wrongPass'
+2025-10-10 12:43:27,199 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-10 12:43:28,503 - INFO - pages.login_page - Login button clicked
+2025-10-10 12:43:28,532 - INFO - tests.Login.test_login - Expecting login to fail
+2025-10-10 12:43:30,931 - WARNING - pages.login_page - Login error message displayed: Invalid credentials
+2025-10-10 12:43:30,931 - WARNING - tests.Login.test_login - Login failed as expected with error message: 'Invalid credentials'
+2025-10-10 12:43:30,931 - INFO - tests.Login.test_login - ===== END: test_login with username='Admin' =====
+
+2025-10-10 12:43:30,939 - INFO - root - Clearing cookies and storage after test.
+2025-10-10 12:43:30,982 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-10 12:43:31,713 - INFO - tests.Login.test_login - ===== START: test_login with username='wrongUser' and password='admin123' =====
+2025-10-10 12:43:31,714 - INFO - pages.login_page - LoginPage initialized
+2025-10-10 12:43:31,714 - INFO - tests.Login.test_login - Performing login with username='wrongUser' and password='admin123'
+2025-10-10 12:43:31,714 - INFO - pages.login_page - Attempting login with username: 'wrongUser'
+2025-10-10 12:43:32,686 - INFO - pages.login_page - Login button clicked
+2025-10-10 12:43:32,686 - INFO - tests.Login.test_login - Expecting login to fail
+2025-10-10 12:43:34,753 - WARNING - pages.login_page - Login error message displayed: Invalid credentials
+2025-10-10 12:43:34,753 - WARNING - tests.Login.test_login - Login failed as expected with error message: 'Invalid credentials'
+2025-10-10 12:43:34,753 - INFO - tests.Login.test_login - ===== END: test_login with username='wrongUser' =====
+
+2025-10-10 12:43:34,758 - INFO - root - Clearing cookies and storage after test.
+2025-10-10 12:43:34,813 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-10 12:43:35,556 - INFO - tests.Login.test_login - ===== START: test_login with username='' and password='admin123' =====
+2025-10-10 12:43:35,557 - INFO - pages.login_page - LoginPage initialized
+2025-10-10 12:43:35,557 - INFO - tests.Login.test_login - Performing login with username='' and password='admin123'
+2025-10-10 12:43:35,557 - INFO - pages.login_page - Attempting login with username: ''
+2025-10-10 12:43:37,121 - INFO - pages.login_page - Login button clicked
+2025-10-10 12:43:37,121 - INFO - tests.Login.test_login - Expecting login to fail
+2025-10-10 12:43:47,187 - INFO - pages.login_page - No login error message displayed
+2025-10-10 12:43:47,228 - INFO - tests.Login.test_login - \u2705 Login failed as expected, required field message displayed
+2025-10-10 12:43:47,229 - INFO - tests.Login.test_login - ===== END: test_login with username='' =====
+
+2025-10-10 12:43:47,236 - INFO - root - Clearing cookies and storage after test.
+2025-10-10 12:43:47,279 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-10 12:43:48,602 - INFO - tests.Login.test_login - ===== START: test_login with username='Admin' and password='' =====
+2025-10-10 12:43:48,602 - INFO - pages.login_page - LoginPage initialized
+2025-10-10 12:43:48,602 - INFO - tests.Login.test_login - Performing login with username='Admin' and password=''
+2025-10-10 12:43:48,602 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-10 12:43:49,605 - INFO - pages.login_page - Login button clicked
+2025-10-10 12:43:49,606 - INFO - tests.Login.test_login - Expecting login to fail
+2025-10-10 12:43:59,668 - INFO - pages.login_page - No login error message displayed
+2025-10-10 12:43:59,697 - INFO - tests.Login.test_login - \u2705 Login failed as expected, required field message displayed
+2025-10-10 12:43:59,697 - INFO - tests.Login.test_login - ===== END: test_login with username='Admin' =====
+
+2025-10-10 12:43:59,702 - INFO - root - Clearing cookies and storage after test.
+2025-10-10 12:43:59,754 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-10 12:44:01,225 - INFO - pages.login_page - LoginPage initialized
+2025-10-10 12:44:01,226 - INFO - pages.dashboard_page - DashboardPage initialized
+2025-10-10 12:44:01,226 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-10 12:44:03,685 - INFO - pages.login_page - Login button clicked
+2025-10-10 12:44:04,290 - INFO - pages.dashboard_page - Dashboard displayed: True
+2025-10-10 12:44:04,291 - INFO - pages.dashboard_page - Navigating to PIM page
+2025-10-10 12:44:14,389 - INFO - root - Clearing cookies and storage after test.
+2025-10-10 12:44:14,450 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-10 12:44:15,311 - INFO - pages.login_page - LoginPage initialized
+2025-10-10 12:44:15,311 - INFO - pages.dashboard_page - DashboardPage initialized
+2025-10-10 12:44:15,313 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-10 12:44:16,294 - INFO - pages.login_page - Login button clicked
+2025-10-10 12:44:16,295 - INFO - pages.dashboard_page - Navigating to PIM page
+2025-10-10 12:44:24,681 - INFO - root - Clearing cookies and storage after test.
+2025-10-10 12:44:24,751 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-10 12:44:26,493 - INFO - pages.login_page - LoginPage initialized
+2025-10-10 12:44:26,494 - INFO - pages.dashboard_page - DashboardPage initialized
+2025-10-10 12:44:26,494 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-10 12:44:27,526 - INFO - pages.login_page - Login button clicked
+2025-10-10 12:44:27,526 - INFO - pages.dashboard_page - Navigating to PIM page
+2025-10-10 12:44:46,041 - INFO - root - Clearing cookies and storage after test.
+2025-10-10 12:44:46,108 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-10 12:44:46,923 - INFO - pages.login_page - LoginPage initialized
+2025-10-10 12:44:46,924 - INFO - pages.dashboard_page - DashboardPage initialized
+2025-10-10 12:44:46,924 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-10 12:44:48,029 - INFO - pages.login_page - Login button clicked
+2025-10-10 12:44:48,046 - INFO - pages.dashboard_page - Navigating to PIM page
+2025-10-10 12:44:57,361 - INFO - root - Clearing cookies and storage after test.
+2025-10-10 12:44:57,436 - INFO - WDM - ====== WebDriver manager ======
+2025-10-10 12:45:00,846 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 12:45:01,320 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 12:45:01,774 - INFO - WDM - Driver [C:\Users\shahn\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-10 12:45:12,090 - INFO - pages.login_page - LoginPage initialized
+2025-10-10 12:45:12,090 - INFO - pages.dashboard_page - DashboardPage initialized
+2025-10-10 12:45:12,090 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-10 12:45:15,714 - INFO - pages.login_page - Login button clicked
+2025-10-10 12:45:15,715 - INFO - pages.dashboard_page - Navigating to PIM page
+2025-10-10 12:45:29,520 - INFO - WDM - ====== WebDriver manager ======
+2025-10-10 12:45:32,130 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 12:45:32,289 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 12:45:32,459 - INFO - WDM - Driver [C:\Users\shahn\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-10 12:45:38,014 - INFO - pages.login_page - LoginPage initialized
+2025-10-10 12:45:38,014 - INFO - pages.dashboard_page - DashboardPage initialized
+2025-10-10 12:45:38,014 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-10 12:45:43,593 - INFO - pages.login_page - Login button clicked
+2025-10-10 12:45:43,594 - INFO - pages.dashboard_page - Navigating to PIM page
+2025-10-10 12:45:59,560 - INFO - WDM - ====== WebDriver manager ======
+2025-10-10 12:46:01,846 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 12:46:02,063 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 12:46:02,247 - INFO - WDM - Driver [C:\Users\shahn\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-10 12:46:09,623 - INFO - pages.login_page - LoginPage initialized
+2025-10-10 12:46:09,623 - INFO - pages.dashboard_page - DashboardPage initialized
+2025-10-10 12:46:09,624 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-10 12:46:13,462 - INFO - pages.login_page - Login button clicked
+2025-10-10 12:46:13,462 - INFO - pages.dashboard_page - Navigating to PIM page
+2025-10-10 12:46:28,707 - INFO - WDM - ====== WebDriver manager ======
+2025-10-10 12:46:31,058 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 12:46:31,279 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 12:46:31,639 - INFO - WDM - Driver [C:\Users\shahn\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-10 12:46:39,463 - INFO - pages.login_page - LoginPage initialized
+2025-10-10 12:46:39,464 - INFO - pages.dashboard_page - DashboardPage initialized
+2025-10-10 12:46:39,464 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-10 12:46:43,618 - INFO - pages.login_page - Login button clicked
+2025-10-10 12:46:43,618 - INFO - pages.dashboard_page - Navigating to PIM page
+2025-10-10 12:47:06,206 - ERROR - root - Test FAILED: test_add_multiple_employees_with_different_data[David-Wilson-True]. No driver available to capture screenshot.
+2025-10-10 12:47:09,831 - INFO - WDM - ====== WebDriver manager ======
+2025-10-10 12:47:13,031 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 12:47:13,229 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-10 12:47:13,431 - INFO - WDM - Driver [C:\Users\shahn\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-10 12:47:22,074 - INFO - pages.login_page - LoginPage initialized
+2025-10-10 12:47:22,074 - INFO - pages.dashboard_page - DashboardPage initialized
+2025-10-10 12:47:22,074 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-10 12:47:25,481 - INFO - pages.login_page - Login button clicked
+2025-10-10 12:47:25,482 - INFO - pages.dashboard_page - Navigating to PIM page
+2025-10-10 12:47:39,812 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-10 12:47:43,526 - INFO - pages.login_page - LoginPage initialized
+2025-10-10 12:47:43,526 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-10 12:47:45,890 - INFO - pages.login_page - Login button clicked
+2025-10-10 12:47:45,891 - INFO - pages.dashboard_page - DashboardPage initialized
+2025-10-10 12:47:45,891 - INFO - pages.dashboard_page - Navigating to PIM page
+2025-10-10 12:47:53,694 - INFO - root - Clearing cookies and storage after test.
+2025-10-10 12:47:53,765 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-10 12:47:54,943 - INFO - pages.login_page - LoginPage initialized
+2025-10-10 12:47:54,950 - INFO - pages.dashboard_page - DashboardPage initialized
+2025-10-10 12:47:54,950 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-10 12:47:56,046 - INFO - pages.login_page - Login button clicked
+2025-10-10 12:47:56,047 - INFO - pages.dashboard_page - Navigating to PIM page
+2025-10-10 12:49:05,579 - ERROR - root - Test FAILED: test_search_created_employee. Screenshot saved at screenshots/test_search_created_employee_20251010_124905.png
+2025-10-10 12:49:05,919 - INFO - root - Clearing cookies and storage after test.
+2025-10-10 12:49:06,168 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-10 12:49:12,351 - INFO - pages.login_page - LoginPage initialized
+2025-10-10 12:49:12,355 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-10 12:49:15,175 - INFO - pages.login_page - Login button clicked
+2025-10-10 12:49:40,214 - INFO - root - Clearing cookies and storage after test.
+2025-10-10 12:49:40,337 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-10 12:49:41,280 - INFO - pages.login_page - LoginPage initialized
+2025-10-10 12:49:41,280 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-10 12:49:42,532 - INFO - pages.login_page - Login button clicked
+2025-10-10 12:49:42,546 - INFO - pages.dashboard_page - DashboardPage initialized
+2025-10-10 12:49:42,546 - INFO - pages.dashboard_page - Navigating to Time page
+2025-10-10 12:50:35,525 - ERROR - root - Test FAILED: test_punch_in_out_and_view_records. Screenshot saved at screenshots/test_punch_in_out_and_view_records_20251010_125034.png
+2025-10-10 12:50:35,527 - INFO - root - Clearing cookies and storage after test.
+2025-10-10 12:50:40,315 - INFO - root - Driver closed after session.

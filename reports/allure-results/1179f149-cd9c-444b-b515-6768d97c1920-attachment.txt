@@ -1,0 +1,16 @@
+[32mINFO    [0m root:conftest.py:40 Initializing WebDriver for browser: chrome
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\shahn\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+[32mINFO    [0m root:conftest.py:61 Chrome WebDriver launched successfully.
+[32mINFO    [0m root:conftest.py:73 Driver configured with implicit wait and maximized window.
+[32mINFO    [0m root:conftest.py:87 Opening base URL: https://opensource-demo.orangehrmlive.com/
+[32mINFO    [0m pages.login_page:login_page.py:21 LoginPage initialized
+[32mINFO    [0m pages.dashboard_page:dashboard_page.py:27 DashboardPage initialized
+[32mINFO    [0m pages.login_page:login_page.py:25 Attempting login with username: 'Admin'
+[32mINFO    [0m pages.login_page:login_page.py:29 Login button clicked
+[32mINFO    [0m pages.dashboard_page:dashboard_page.py:32 Dashboard displayed: True
+[32mINFO    [0m pages.dashboard_page:dashboard_page.py:32 Dashboard displayed: True
+[32mINFO    [0m pages.dashboard_page:dashboard_page.py:77 Navigating to PIM page
+[32mINFO    [0m root:conftest.py:91 Clearing cookies and storage after test.

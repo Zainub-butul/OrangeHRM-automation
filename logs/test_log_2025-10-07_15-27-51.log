@@ -1,0 +1,23 @@
+2025-10-07 15:27:51,161 - INFO - root - ===== Test Session Started =====
+2025-10-07 15:27:52,107 - INFO - root - Initializing WebDriver for browser: chrome
+2025-10-07 15:27:52,107 - INFO - WDM - ====== WebDriver manager ======
+2025-10-07 15:27:57,023 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-07 15:27:57,329 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-07 15:27:57,570 - INFO - WDM - Driver [C:\Users\shahn\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-07 15:28:04,715 - INFO - root - Chrome WebDriver launched successfully.
+2025-10-07 15:28:05,199 - INFO - root - Driver configured with implicit wait and maximized window.
+2025-10-07 15:28:05,201 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-07 15:28:13,465 - INFO - pages.login_page - LoginPage initialized
+2025-10-07 15:28:13,465 - INFO - pages.dashboard_page - DashboardPage initialized
+2025-10-07 15:28:13,465 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-07 15:28:17,131 - INFO - pages.login_page - Login button clicked
+2025-10-07 15:28:20,806 - INFO - pages.dashboard_page - Dashboard displayed: True
+2025-10-07 15:28:20,835 - INFO - pages.dashboard_page - Dashboard displayed: True
+2025-10-07 15:28:20,835 - INFO - pages.dashboard_page - Navigating to PIM page
+2025-10-07 15:28:51,111 - ERROR - root - Test FAILED: test_auto_generated_employee_id. Screenshot saved at screenshots/test_auto_generated_employee_id_20251007_152850.png
+2025-10-07 15:28:51,129 - INFO - root - Clearing cookies and storage after test.
+2025-10-07 15:28:51,258 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-07 15:29:10,613 - INFO - pages.login_page - LoginPage initialized
+2025-10-07 15:29:10,613 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-07 15:29:31,275 - INFO - root - Clearing cookies and storage after test.
+2025-10-07 15:29:38,162 - INFO - root - Driver closed after session.

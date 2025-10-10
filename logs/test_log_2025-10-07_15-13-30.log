@@ -1,0 +1,81 @@
+2025-10-07 15:13:30,855 - INFO - root - ===== Test Session Started =====
+2025-10-07 15:13:32,058 - INFO - root - Initializing WebDriver for browser: chrome
+2025-10-07 15:13:32,059 - INFO - WDM - ====== WebDriver manager ======
+2025-10-07 15:13:35,395 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-07 15:13:35,755 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-07 15:13:35,963 - INFO - WDM - Driver [C:\Users\shahn\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-07 15:13:43,967 - INFO - root - Chrome WebDriver launched successfully.
+2025-10-07 15:13:44,263 - INFO - root - Driver configured with implicit wait and maximized window.
+2025-10-07 15:13:44,264 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-07 15:13:55,755 - INFO - pages.login_page - LoginPage initialized
+2025-10-07 15:13:55,756 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-07 15:13:59,083 - INFO - pages.login_page - Login button clicked
+2025-10-07 15:14:26,045 - INFO - root - Clearing cookies and storage after test.
+2025-10-07 15:14:26,168 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-07 15:14:26,944 - INFO - pages.login_page - LoginPage initialized
+2025-10-07 15:14:26,944 - INFO - pages.leave_admin_page - LeaveAdminPage initialized.
+2025-10-07 15:14:26,944 - INFO - tests.Leave.test_admin_create_leave - Starting test: Create Leave Type and Assign Entitlement
+2025-10-07 15:14:26,945 - INFO - tests.Leave.test_admin_create_leave - Logging in as Admin: Admin
+2025-10-07 15:14:26,945 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-07 15:14:28,280 - INFO - pages.login_page - Login button clicked
+2025-10-07 15:14:28,280 - INFO - tests.Leave.test_admin_create_leave - Login successful.
+2025-10-07 15:14:28,280 - INFO - tests.Leave.test_admin_create_leave - Navigating to Leave Types page.
+2025-10-07 15:14:28,280 - INFO - pages.leave_admin_page - Navigating to Leave Types page...
+2025-10-07 15:14:31,443 - INFO - pages.leave_admin_page - Clicked Leave menu.
+2025-10-07 15:14:32,157 - INFO - pages.leave_admin_page - Clicked Configure menu.
+2025-10-07 15:14:33,055 - INFO - pages.leave_admin_page - Clicked Leave Types.
+2025-10-07 15:14:33,056 - INFO - tests.Leave.test_admin_create_leave - Adding new leave type: 'happy Leave'
+2025-10-07 15:14:33,056 - INFO - pages.leave_admin_page - Adding new leave type: happy Leave
+2025-10-07 15:14:34,317 - INFO - pages.leave_admin_page - Clicked Add button.
+2025-10-07 15:14:34,904 - INFO - pages.leave_admin_page - Add Leave Type popup appeared.
+2025-10-07 15:14:34,985 - INFO - pages.leave_admin_page - Cleared leave type name input.
+2025-10-07 15:14:35,193 - INFO - pages.leave_admin_page - Entered leave type name: happy Leave
+2025-10-07 15:14:35,360 - INFO - pages.leave_admin_page - Clicked Save button for leave type.
+2025-10-07 15:14:36,684 - INFO - pages.leave_admin_page - Leave type added successfully. Toast message: 'Success
+Successfully Saved'
+2025-10-07 15:14:36,685 - INFO - tests.Leave.test_admin_create_leave - Leave type creation toast message: 'Success
+Successfully Saved'
+2025-10-07 15:14:36,685 - INFO - tests.Leave.test_admin_create_leave - Leave type added successfully.
+2025-10-07 15:14:36,685 - INFO - tests.Leave.test_admin_create_leave - Assigning entitlement to employee 'John A doe'.
+2025-10-07 15:14:36,685 - INFO - pages.leave_admin_page - Adding entitlement for employee 'John A Doe', leave type 'happy Leave', days '10'
+2025-10-07 15:14:37,759 - INFO - pages.leave_admin_page - Clicked Leave menu.
+2025-10-07 15:14:38,482 - INFO - pages.leave_admin_page - Clicked Entitlements menu.
+2025-10-07 15:14:39,661 - INFO - pages.leave_admin_page - Clicked Add Entitlements.
+2025-10-07 15:14:41,165 - INFO - pages.leave_admin_page - Entered employee name: John A Doe
+2025-10-07 15:14:43,229 - INFO - pages.leave_admin_page - Selected employee from suggestions.
+2025-10-07 15:14:43,904 - INFO - pages.leave_admin_page - Clicked Leave Type dropdown.
+2025-10-07 15:14:44,361 - INFO - pages.leave_admin_page - Selected leave type: happy Leave
+2025-10-07 15:14:44,572 - INFO - pages.leave_admin_page - Entered entitlement days: 10
+2025-10-07 15:14:44,733 - INFO - pages.leave_admin_page - Clicked Save button for entitlement.
+2025-10-07 15:14:46,723 - INFO - pages.leave_admin_page - Confirmation modal appeared.
+2025-10-07 15:14:47,080 - INFO - pages.leave_admin_page - Clicked Confirm button on modal.
+2025-10-07 15:14:48,145 - INFO - pages.leave_admin_page - Entitlement added successfully. Toast message: 'Success
+Successfully Saved'
+2025-10-07 15:14:48,145 - INFO - tests.Leave.test_admin_create_leave - Entitlement assignment toast message: 'Success
+Successfully Saved'
+2025-10-07 15:14:48,145 - INFO - tests.Leave.test_admin_create_leave - Entitlement assigned successfully.
+2025-10-07 15:14:48,146 - INFO - tests.Leave.test_admin_create_leave - Test completed successfully.
+2025-10-07 15:14:48,197 - INFO - root - Clearing cookies and storage after test.
+2025-10-07 15:14:49,031 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-07 15:14:51,163 - INFO - pages.login_page - LoginPage initialized
+2025-10-07 15:14:51,164 - INFO - pages.dashboard_page - DashboardPage initialized
+2025-10-07 15:14:51,164 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-07 15:15:02,526 - INFO - pages.login_page - Login button clicked
+2025-10-07 15:15:02,526 - INFO - pages.dashboard_page - Navigating to PIM page
+2025-10-07 15:15:23,406 - INFO - root - Clearing cookies and storage after test.
+2025-10-07 15:15:24,002 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-07 15:15:25,381 - INFO - pages.login_page - LoginPage initialized
+2025-10-07 15:15:25,385 - INFO - pages.dashboard_page - DashboardPage initialized
+2025-10-07 15:15:25,386 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-07 15:15:29,173 - INFO - pages.login_page - Login button clicked
+2025-10-07 15:15:30,062 - INFO - pages.dashboard_page - Dashboard displayed: True
+2025-10-07 15:15:30,063 - INFO - pages.dashboard_page - Navigating to PIM page
+2025-10-07 15:16:05,239 - ERROR - root - Test FAILED: test_auto_generated_employee_id. Screenshot saved at screenshots/test_auto_generated_employee_id_20251007_151604.png
+2025-10-07 15:16:05,259 - INFO - root - Clearing cookies and storage after test.
+2025-10-07 15:16:05,367 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-07 15:16:06,985 - INFO - pages.login_page - LoginPage initialized
+2025-10-07 15:16:06,985 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-07 15:16:08,204 - INFO - pages.login_page - Login button clicked
+2025-10-07 15:16:28,531 - ERROR - root - Test FAILED: test_add_vacancy. Screenshot saved at screenshots/test_add_vacancy_20251007_151628.png
+2025-10-07 15:16:28,562 - INFO - root - Clearing cookies and storage after test.
+2025-10-07 15:16:58,012 - INFO - root - Driver closed after session.
