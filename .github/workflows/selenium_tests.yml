@@ -28,7 +28,7 @@ jobs:
 
       - name: Run tests with Allure results
         run: |
-          pytest --alluredir=allure-results -n auto --headless
+          pytest --alluredir=allure-results -n auto 
 
       - name: Install Allure commandline
         run: |
