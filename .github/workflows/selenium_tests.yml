@@ -35,7 +35,7 @@ jobs:
       - name: Install Google Chrome
         run: |
           sudo apt-get update
-  @@ -37,17 +40,20 @@
+
   sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
   sudo apt-get update
   sudo apt-get install -y google-chrome-stable
