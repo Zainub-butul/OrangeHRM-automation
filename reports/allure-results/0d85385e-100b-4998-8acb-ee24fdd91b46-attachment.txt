@@ -1,0 +1,17 @@
+
+>>> Test: Add Employee - Alice Johnson
+>>> Navigating to Add Employee page
+✅ Clicked on Add Employee menu
+>>> Creating employee: Alice  Johnson
+>>> Filling First Name: Alice
+>>> Filling Last Name: Johnson
+>>> Waiting for Employee ID to auto-generate
+>>> Retrieved Employee ID: 0397
+✅ Auto-generated Employee ID: 0397
+>>> Retrieved Employee ID: 0397
+>>> Clicking Save button
+✅ Employee saved
+>>> Success message text: Success
+✅ Employee created successfully: Alice  Johnson (ID: 0397)
+>>> Navigating to Add Employee page
+✅ Clicked on Add Employee menu

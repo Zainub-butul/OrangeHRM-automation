@@ -1,0 +1,19 @@
+
+>>> Test: Add Employee - Bob Smith
+>>> Navigating to Add Employee page
+✅ Clicked on Add Employee menu
+>>> Creating employee: Bob aDOZSe Smith
+>>> Filling First Name: Bob
+>>> Filling Last Name: Smith
+>>> Waiting for Employee ID to auto-generate
+>>> Retrieved Employee ID: 0398
+✅ Auto-generated Employee ID: 0398
+>>> Filling Middle Name: aDOZSe
+✅ Middle name filled: aDOZSe
+>>> Retrieved Employee ID: 0398
+>>> Clicking Save button
+✅ Employee saved
+>>> Success message text: Success
+✅ Employee created successfully: Bob aDOZSe Smith (ID: 0398)
+>>> Navigating to Add Employee page
+✅ Clicked on Add Employee menu

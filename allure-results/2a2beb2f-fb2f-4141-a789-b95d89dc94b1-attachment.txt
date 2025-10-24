@@ -1,0 +1,9 @@
+>>> Navigating to Add Employee page
+✅ Clicked on Add Employee menu
+>>> Filling First Name: cgEXVU
+>>> Filling Last Name: EpvrmS
+>>> Waiting for Employee ID to auto-generate
+>>> Retrieved Employee ID: 0386
+✅ Auto-generated Employee ID: 0386
+>>> Retrieved Employee ID: 0386
+✅ Auto-generated Employee ID: 0386

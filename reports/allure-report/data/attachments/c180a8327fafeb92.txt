@@ -1,0 +1,22 @@
+
+>>> Test: Search for Created Employee
+>>> Navigating to Add Employee page
+✅ Clicked on Add Employee menu
+>>> Creating employee for search test: SearchTest Employee
+>>> Filling First Name: SearchTest
+>>> Filling Last Name: Employee
+>>> Waiting for Employee ID to auto-generate
+>>> Retrieved Employee ID: 0411
+✅ Auto-generated Employee ID: 0411
+>>> Retrieved Employee ID: 0411
+>>> Clicking Save button
+✅ Employee saved
+>>> Navigating to Employee List page
+✅ Clicked on Employee List menu
+Searching for employee by name: SearchTest Employee
+✅ Found employee name input using primary locator
+✅ Entered employee name: SearchTest Employee
+✅ Selected from autocomplete
+✅ Clicked search button
+✅ Search by name completed
+✅ Employee found in search: SearchTest Employee (ID: 0411)

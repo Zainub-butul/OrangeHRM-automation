@@ -1,0 +1,9 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\shahn\.wdm\drivers\chromedriver\win64\141.0.7390.76\chromedriver-win32/chromedriver.exe] found in cache
+[32mINFO    [0m pages.login_page:login_page.py:21 LoginPage initialized
+[32mINFO    [0m pages.dashboard_page:dashboard_page.py:27 DashboardPage initialized
+[32mINFO    [0m pages.login_page:login_page.py:25 Attempting login with username: 'Admin'
+[32mINFO    [0m pages.login_page:login_page.py:29 Login button clicked
+[32mINFO    [0m pages.dashboard_page:dashboard_page.py:77 Navigating to PIM page

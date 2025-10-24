@@ -25,14 +25,14 @@ class TestAdminLeave:
         logger.info("Navigating to Leave Types page.")
         leave_admin.navigate_to_leave_types()
         logger.info("Adding new leave type: 'happy Leave'")
-        toast_message = leave_admin.add_leave_type("happy Leave")
+        toast_message = leave_admin.add_leave_type("care Leave")
         logger.info(f"Leave type creation toast message: '{toast_message}'")
         assert "Successfully Saved" in toast_message or "successfully" in toast_message.lower()
         logger.info("Leave type added successfully.")
 
         # Step 3: Assign Entitlement to Employee
-        logger.info("Assigning entitlement to employee 'John A doe'.")
-        entitlement_msg = leave_admin.add_entitlement("John A Doe", "happy Leave", 10)
+        logger.info("Assigning entitlement to employee 'John Doe'.")
+        entitlement_msg = leave_admin.add_entitlement("John Doe", "care Leave", 10)
         logger.info(f"Entitlement assignment toast message: '{entitlement_msg}'")
         assert "Successfully Saved" in entitlement_msg or "successfully" in entitlement_msg.lower()
         logger.info("Entitlement assigned successfully.")

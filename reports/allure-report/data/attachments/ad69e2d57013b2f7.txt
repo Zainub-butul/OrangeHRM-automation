@@ -1,0 +1,77 @@
+>>> Opening OrangeHRM demo site
+>>> Logging in with Admin credentials
+✅ Login completed
+>>> Initializing AdminPage fixture
+✅ AdminPage fixture ready
+>>> Test: Add User started
+>>> Navigating to Admin module
+>>> Navigating to Admin menu
+✅ Admin menu clicked
+>>> Clicking Add button
+>>> Clicking Add button
+✅ Add button clicked
+>>> Generated unique username: testuser_1759784168
+>>> Selecting User Role: ESS
+>>> Selecting user role: ESS
+✅ User Role selected: ESS
+>>> Selecting Employee Name: Joseph Evans
+>>> Selecting employee name with search: 'John Smith'
+✅ Employee Name selected
+>>> Selecting Status: Enabled
+>>> Selecting status: Enabled
+✅ Status selected: Enabled
+>>> Entering Username: testuser_1759784168
+>>> Entering username: testuser_1759784168
+✅ Username entered
+>>> Entering Password
+>>> Entering password
+✅ Password entered
+>>> Entering Confirm Password
+>>> Entering confirm password
+✅ Confirm Password entered
+>>> Clicking Save
+>>> Clicking Save button
+✅ Save button clicked
+>>> Verifying if user was saved successfully
+>>> Checking if user was saved successfully
+>>> Retrieving success message
+📢 Success Message: Success
+Successfully Saved
+✅ User saved successfully: True
+✅ User 'testuser_1759784168' saved successfully
+>>> Searching for user in list: testuser_1759784168
+>>> Searching for user: testuser_1759784168
+⚠️ Error searching user: Message: stale element reference: stale element not found
+  (Session info: chrome=140.0.7339.208); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x126c333+65459]
+	GetHandleVerifier [0x0x126c374+65524]
+	(No symbol) [0x0x108d973]
+	(No symbol) [0x0x109f961]
+	(No symbol) [0x0x109ea30]
+	(No symbol) [0x0x1094e1c]
+	(No symbol) [0x0x1093321]
+	(No symbol) [0x0x1096734]
+	(No symbol) [0x0x10967c8]
+	(No symbol) [0x0x10d83ca]
+	(No symbol) [0x0x10d8461]
+	(No symbol) [0x0x10cfc83]
+	(No symbol) [0x0x10f9dfc]
+	(No symbol) [0x0x10ccbf4]
+	(No symbol) [0x0x10f9fb4]
+	(No symbol) [0x0x111b606]
+	(No symbol) [0x0x10f9bf6]
+	(No symbol) [0x0x10cb38e]
+	(No symbol) [0x0x10cc274]
+	GetHandleVerifier [0x0x14eeda3+2697763]
+	GetHandleVerifier [0x0x14e9ec7+2677575]
+	GetHandleVerifier [0x0x1294194+228884]
+	GetHandleVerifier [0x0x12849f8+165496]
+	GetHandleVerifier [0x0x128b18d+192013]
+	GetHandleVerifier [0x0x12747d8+99416]
+	GetHandleVerifier [0x0x1274972+99826]
+	GetHandleVerifier [0x0x125ebea+10346]
+	BaseThreadInitThunk [0x0x76307ba9+25]
+	RtlInitializeExceptionChain [0x0x7788c2eb+107]
+	RtlClearBits [0x0x7788c26f+191]
+

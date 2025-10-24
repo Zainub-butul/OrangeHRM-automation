@@ -1,0 +1,43 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","37941","test_search_created_employee","tests.PIM","2025-10-07","passed","2025-10-07","TestEmployeeAddition","test_search_created_employee","",""
+"
+Login test for different scenarios.
+Uses LoginPage POM with driver fixture from conftest.py
+","11226","test_login[Admin--invalid]","tests.Login","2025-10-07","passed","2025-10-07","","test_login","",""
+"","17393","test_add_multiple_employees_with_different_data[David-Wilson-True]","tests.PIM","2025-10-07","passed","2025-10-07","TestEmployeeAddition","test_add_multiple_employees_with_different_data","",""
+"","55951","test_add_multiple_employees_with_different_data[Carol-Davis-False]","tests.PIM","2025-10-10","broken","2025-10-10","TestEmployeeAddition","test_add_multiple_employees_with_different_data","",""
+"Test adding a new user with valid data","23277","test_add_user","tests.Admin","2025-10-10","broken","2025-10-10","","test_add_user","",""
+"","780","test_logout_option_available","tests.Dashboard","2025-10-07","passed","2025-10-07","","test_logout_option_available","",""
+"","39473","test_add_multiple_employees_with_different_data[Alice-Johnson-False]","tests.PIM","2025-10-10","broken","2025-10-10","TestEmployeeAddition","test_add_multiple_employees_with_different_data","",""
+"","38","test_dashboard_header","tests.Dashboard","2025-10-07","passed","2025-10-07","","test_dashboard_header","",""
+"
+Login test for different scenarios.
+Uses LoginPage POM with driver fixture from conftest.py
+","4172","test_login[Admin-admin123-valid]","tests.Login","2025-10-07","passed","2025-10-07","","test_login","",""
+"","13040","test_add_employee_basic_details_only","tests.PIM","2025-10-10","passed","2025-10-10","TestEmployeeAddition","test_add_employee_basic_details_only","",""
+"","1199","test_quick_launch_items","tests.Dashboard","2025-10-07","passed","2025-10-07","","test_quick_launch_items","",""
+"","0","test_add_multiple_employees_with_different_data[David-Wilson-True]","","2025-10-10","skipped","2025-10-10","","","",""
+"","19678","test_add_multiple_employees_with_different_data[Bob-Smith-True]","tests.PIM","2025-10-10","passed","2025-10-10","TestEmployeeAddition","test_add_multiple_employees_with_different_data","",""
+"","18031","test_add_employee_validation_errors","tests.PIM","2025-10-10","passed","2025-10-10","TestEmployeeAddition","test_add_employee_validation_errors","",""
+"","34885","test_auto_generated_employee_id","tests.PIM","2025-10-10","broken","2025-10-10","TestEmployeeAddition","test_auto_generated_employee_id","",""
+"","72","test_employee_distribution_graph_is_displayed","tests.Dashboard","2025-10-07","passed","2025-10-07","","test_employee_distribution_graph_is_displayed","",""
+"
+Login test for different scenarios.
+Uses LoginPage POM with driver fixture from conftest.py
+","2421","test_login[wrongUser-admin123-invalid]","tests.Login","2025-10-07","passed","2025-10-07","","test_login","",""
+"
+Login test for different scenarios.
+Uses LoginPage POM with driver fixture from conftest.py
+","11893","test_login[-admin123-invalid]","tests.Login","2025-10-07","passed","2025-10-07","","test_login","",""
+"","14395","test_add_multiple_employees_with_different_data[Emma-Brown-False]","tests.PIM","2025-10-07","passed","2025-10-07","TestEmployeeAddition","test_add_multiple_employees_with_different_data","",""
+"","20200","test_add_vacancy","tests.Recruitment","2025-10-07","broken","2025-10-07","","test_vacancy","",""
+"
+Login test for different scenarios.
+Uses LoginPage POM with driver fixture from conftest.py
+","2941","test_login[Admin-wrongPass-invalid]","tests.Login","2025-10-07","passed","2025-10-07","","test_login","",""
+"Test: Verify auto-generated Employee ID","4271","test_auto_generated_employee_id","tests.PIM","2025-10-10","passed","2025-10-10","","test_auto_generated_employee_id","",""
+"","21205","test_create_leave_type_and_assign_entitlement","tests.Leave","2025-10-07","passed","2025-10-07","TestAdminLeave","test_admin_create_leave","",""
+"","17356","test_add_employee_with_middle_name_and_custom_id","tests.PIM","2025-10-10","passed","2025-10-10","TestEmployeeAddition","test_add_employee_with_middle_name_and_custom_id","",""
+"","123","test_profile_name_displayed","tests.Dashboard","2025-10-07","passed","2025-10-07","","test_profile_name_displayed","",""
+"","60663","test_punch_in_out_and_view_records","tests.Time","2025-10-07","passed","2025-10-07","TestAttendance","test_attendance","",""
+"","22417","test_add_employee_with_login_credentials","tests.PIM","2025-10-10","passed","2025-10-10","TestEmployeeAddition","test_add_employee_with_login_credentials","",""

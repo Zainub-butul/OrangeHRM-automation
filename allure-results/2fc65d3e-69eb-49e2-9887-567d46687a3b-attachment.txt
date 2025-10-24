@@ -1,0 +1,19 @@
+
+>>> Test: Add Employee with Login Credentials
+>>> Navigating to Add Employee page
+✅ Clicked on Add Employee menu
+>>> Employee details: JLvVIl VFImJYDC, username: user_dkAmG
+>>> Filling First Name: JLvVIl
+>>> Filling Last Name: VFImJYDC
+>>> Waiting for Employee ID to auto-generate
+>>> Retrieved Employee ID: 0373
+✅ Auto-generated Employee ID: 0373
+>>> Filling login details: username=user_dkAmG, status=Enabled
+>>> Enabling Create Login Details toggle
+✅ Toggle clicked
+✅ Login credentials entered
+>>> Retrieved Employee ID: 0373
+>>> Clicking Save button
+✅ Employee saved
+>>> Success message text: Success
+✅ Employee with login created: JLvVIl VFImJYDC (Username: user_dkAmG, ID: 0373)

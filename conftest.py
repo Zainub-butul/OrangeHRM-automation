@@ -11,6 +11,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
 from config import Config
 
+
 # -------------------------
 # LOGGING SETUP
 # -------------------------
@@ -35,18 +36,21 @@ def driver_setup():
     """Setup WebDriver based on configuration"""
     logging.info(f"Initializing WebDriver for browser: {Config.BROWSER}")
 
+    # Detect if running in GitHub Actions
+    is_github = os.getenv("GITHUB_ACTIONS") == "true"
+
     if Config.BROWSER.lower() == "chrome":
         options = Options()
 
-        # ✅ Disable "Save password?" pop-up
+        # Disable Chrome password popups
         prefs = {
             "credentials_enable_service": False,
             "profile.password_manager_enabled": False
         }
         options.add_experimental_option("prefs", prefs)
 
-        # ✅ Always headless in CI (GitHub Actions)
-        if os.getenv("GITHUB_ACTIONS") == "true" or Config.HEADLESS:
+        # ✅ Headless in GitHub, normal in local
+        if is_github or Config.HEADLESS:
             options.add_argument("--headless=new")
             options.add_argument("--no-sandbox")
             options.add_argument("--disable-dev-shm-usage")
@@ -62,15 +66,18 @@ def driver_setup():
 
     elif Config.BROWSER.lower() == "firefox":
         options = FirefoxOptions()
-        if os.getenv("GITHUB_ACTIONS") == "true" or Config.HEADLESS:
+        if is_github or Config.HEADLESS:
             options.add_argument("--headless")
         service = FirefoxService(GeckoDriverManager().install())
         driver = webdriver.Firefox(service=service, options=options)
         logging.info("Firefox WebDriver launched successfully.")
 
     driver.implicitly_wait(Config.IMPLICIT_WAIT)
-    driver.maximize_window()
-    logging.info("Driver configured with implicit wait and maximized window.")
+    driver.set_page_load_timeout(40)
+    try:
+        driver.maximize_window()
+    except Exception:
+        logging.warning("Unable to maximize window (headless mode).")
 
     yield driver
 
@@ -110,7 +117,6 @@ def pytest_runtest_makereport(item, call):
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
             screenshot_name = f"{item.name}_{timestamp}.png"
             screenshot_path = os.path.join(Config.SCREENSHOT_PATH, screenshot_name)
-
             driver.save_screenshot(screenshot_path)
             logging.error(f"Test FAILED: {item.name}. Screenshot saved at {screenshot_path}")
             print(f"Screenshot saved: {screenshot_path}")

@@ -1,0 +1,19 @@
+
+>>> Test: Add Employee - David Wilson
+>>> Navigating to Add Employee page
+✅ Clicked on Add Employee menu
+>>> Creating employee: David uppuNo Wilson
+>>> Filling First Name: David
+>>> Filling Last Name: Wilson
+>>> Waiting for Employee ID to auto-generate
+>>> Retrieved Employee ID: 0400
+✅ Auto-generated Employee ID: 0400
+>>> Filling Middle Name: uppuNo
+✅ Middle name filled: uppuNo
+>>> Retrieved Employee ID: 0400
+>>> Clicking Save button
+✅ Employee saved
+>>> Success message text: Success
+✅ Employee created successfully: David uppuNo Wilson (ID: 0400)
+>>> Navigating to Add Employee page
+✅ Clicked on Add Employee menu

@@ -1,0 +1,19 @@
+[32mINFO    [0m root:conftest.py:40 Initializing WebDriver for browser: chrome
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 There is no [win64] chromedriver "141.0.7390.76" for browser google-chrome "141.0.7390" in cache
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 WebDriver version 141.0.7390.76 selected
+[32mINFO    [0m WDM:logger.py:11 Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/141.0.7390.76/win32/chromedriver-win32.zip
+[32mINFO    [0m WDM:logger.py:11 About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/141.0.7390.76/win32/chromedriver-win32.zip
+[32mINFO    [0m WDM:logger.py:11 Driver downloading response is 200
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver has been saved in cache [C:\Users\shahn\.wdm\drivers\chromedriver\win64\141.0.7390.76]
+[32mINFO    [0m root:conftest.py:61 Chrome WebDriver launched successfully.
+[32mINFO    [0m root:conftest.py:73 Driver configured with implicit wait and maximized window.
+[32mINFO    [0m root:conftest.py:87 Opening base URL: https://opensource-demo.orangehrmlive.com/
+[32mINFO    [0m pages.login_page:login_page.py:21 LoginPage initialized
+[32mINFO    [0m pages.login_page:login_page.py:25 Attempting login with username: 'Admin'
+[32mINFO    [0m pages.login_page:login_page.py:29 Login button clicked
+[32mINFO    [0m root:conftest.py:91 Clearing cookies and storage after test.

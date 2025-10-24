@@ -1,0 +1,48 @@
+>>> Opening OrangeHRM demo site
+>>> Logging in with Admin credentials
+✅ Login completed
+>>> Initializing AdminPage fixture
+✅ AdminPage fixture ready
+>>> Test: Add User started
+>>> Navigating to Admin module
+>>> Navigating to Admin menu
+✅ Admin menu clicked
+>>> Clicking Add button
+>>> Clicking Add button
+✅ Add button clicked
+>>> Generated unique username: testuser_1760336282
+>>> Selecting User Role: ESS
+>>> Selecting user role: ESS
+✅ User Role selected: ESS
+>>> Selecting Employee Name: John Doe
+>>> Selecting employee name with search: 'John Doe'
+✅ Employee Name selected
+>>> Selecting Status: Enabled
+>>> Selecting status: Enabled
+✅ Status selected: Enabled
+>>> Entering Username: testuser_1760336282
+>>> Entering username: testuser_1760336282
+✅ Username entered
+>>> Entering Password
+>>> Entering password
+✅ Password entered
+>>> Entering Confirm Password
+>>> Entering confirm password
+✅ Confirm Password entered
+>>> Clicking Save
+>>> Clicking Save button
+✅ Save button clicked
+>>> Verifying if user was saved successfully
+>>> Checking if user was saved successfully
+>>> Retrieving success message
+📢 Success Message: Success
+Successfully Saved
+✅ User saved successfully: True
+✅ User 'testuser_1760336282' saved successfully
+>>> Searching for user in list: testuser_1760336282
+>>> Searching for user: testuser_1760336282
+✅ Searched for user: testuser_1760336282
+>>> Checking if user 'testuser_1760336282' is present in list
+✅ User present: True
+✅ User 'testuser_1760336282' found in list
+>>> Test: Add User completed successfully

@@ -1,0 +1,54 @@
+2025-10-13 12:19:23,794 - INFO - root - ===== Test Session Started =====
+2025-10-13 12:19:24,885 - INFO - root - Initializing WebDriver for browser: chrome
+2025-10-13 12:19:24,886 - INFO - WDM - ====== WebDriver manager ======
+2025-10-13 12:19:28,291 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-13 12:19:28,426 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-13 12:19:28,543 - INFO - WDM - Driver [C:\Users\shahn\.wdm\drivers\chromedriver\win64\141.0.7390.76\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-13 12:19:33,735 - INFO - root - Chrome WebDriver launched successfully.
+2025-10-13 12:19:34,203 - INFO - root - Driver configured with implicit wait and maximized window.
+2025-10-13 12:19:34,204 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-13 12:19:36,734 - INFO - pages.login_page - LoginPage initialized
+2025-10-13 12:19:36,734 - INFO - pages.leave_admin_page - LeaveAdminPage initialized.
+2025-10-13 12:19:36,734 - INFO - tests.Leave.test_admin_create_leave - Starting test: Create Leave Type and Assign Entitlement
+2025-10-13 12:19:36,735 - INFO - tests.Leave.test_admin_create_leave - Logging in as Admin: Admin
+2025-10-13 12:19:36,735 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-13 12:19:47,082 - INFO - pages.login_page - Login button clicked
+2025-10-13 12:19:47,082 - INFO - tests.Leave.test_admin_create_leave - Login successful.
+2025-10-13 12:19:47,083 - INFO - tests.Leave.test_admin_create_leave - Navigating to Leave Types page.
+2025-10-13 12:19:47,083 - INFO - pages.leave_admin_page - Navigating to Leave Types page...
+2025-10-13 12:19:51,626 - INFO - pages.leave_admin_page - Clicked Leave menu.
+2025-10-13 12:19:52,309 - INFO - pages.leave_admin_page - Clicked Configure menu.
+2025-10-13 12:19:53,363 - INFO - pages.leave_admin_page - Clicked Leave Types.
+2025-10-13 12:19:53,366 - INFO - tests.Leave.test_admin_create_leave - Adding new leave type: 'happy Leave'
+2025-10-13 12:19:53,367 - INFO - pages.leave_admin_page - Adding new leave type: care Leave
+2025-10-13 12:19:54,702 - INFO - pages.leave_admin_page - Clicked Add button.
+2025-10-13 12:19:55,204 - INFO - pages.leave_admin_page - Add Leave Type popup appeared.
+2025-10-13 12:19:55,305 - INFO - pages.leave_admin_page - Cleared leave type name input.
+2025-10-13 12:19:55,733 - INFO - pages.leave_admin_page - Entered leave type name: care Leave
+2025-10-13 12:19:55,894 - INFO - pages.leave_admin_page - Clicked Save button for leave type.
+2025-10-13 12:19:58,011 - INFO - pages.leave_admin_page - Leave type added successfully. Toast message: 'Success
+Successfully Saved'
+2025-10-13 12:19:58,011 - INFO - tests.Leave.test_admin_create_leave - Leave type creation toast message: 'Success
+Successfully Saved'
+2025-10-13 12:19:58,011 - INFO - tests.Leave.test_admin_create_leave - Leave type added successfully.
+2025-10-13 12:19:58,011 - INFO - tests.Leave.test_admin_create_leave - Assigning entitlement to employee 'John Doe'.
+2025-10-13 12:19:58,012 - INFO - pages.leave_admin_page - Adding entitlement for employee 'John Doe', leave type 'care Leave', days '10'
+2025-10-13 12:19:59,208 - INFO - pages.leave_admin_page - Clicked Leave menu.
+2025-10-13 12:20:00,030 - INFO - pages.leave_admin_page - Clicked Entitlements menu.
+2025-10-13 12:20:01,522 - INFO - pages.leave_admin_page - Clicked Add Entitlements.
+2025-10-13 12:20:02,421 - INFO - pages.leave_admin_page - Entered employee name: John Doe
+2025-10-13 12:20:03,868 - INFO - pages.leave_admin_page - Selected employee from suggestions.
+2025-10-13 12:20:04,042 - INFO - pages.leave_admin_page - Clicked Leave Type dropdown.
+2025-10-13 12:20:04,277 - INFO - pages.leave_admin_page - Selected leave type: care Leave
+2025-10-13 12:20:04,491 - INFO - pages.leave_admin_page - Entered entitlement days: 10
+2025-10-13 12:20:04,641 - INFO - pages.leave_admin_page - Clicked Save button for entitlement.
+2025-10-13 12:20:05,720 - INFO - pages.leave_admin_page - Confirmation modal appeared.
+2025-10-13 12:20:05,942 - INFO - pages.leave_admin_page - Clicked Confirm button on modal.
+2025-10-13 12:20:07,126 - INFO - pages.leave_admin_page - Entitlement added successfully. Toast message: 'Success
+Successfully Saved'
+2025-10-13 12:20:07,127 - INFO - tests.Leave.test_admin_create_leave - Entitlement assignment toast message: 'Success
+Successfully Saved'
+2025-10-13 12:20:07,127 - INFO - tests.Leave.test_admin_create_leave - Entitlement assigned successfully.
+2025-10-13 12:20:07,127 - INFO - tests.Leave.test_admin_create_leave - Test completed successfully.
+2025-10-13 12:20:07,206 - INFO - root - Clearing cookies and storage after test.
+2025-10-13 12:20:23,432 - INFO - root - Driver closed after session.

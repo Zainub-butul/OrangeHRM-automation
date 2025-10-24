@@ -1,0 +1,40 @@
+2025-10-13 12:15:34,163 - INFO - root - ===== Test Session Started =====
+2025-10-13 12:15:36,603 - INFO - root - Initializing WebDriver for browser: chrome
+2025-10-13 12:15:36,604 - INFO - WDM - ====== WebDriver manager ======
+2025-10-13 12:15:41,887 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-13 12:15:42,086 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-13 12:15:42,217 - INFO - WDM - Driver [C:\Users\shahn\.wdm\drivers\chromedriver\win64\141.0.7390.76\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-13 12:15:48,598 - INFO - root - Chrome WebDriver launched successfully.
+2025-10-13 12:15:48,983 - INFO - root - Driver configured with implicit wait and maximized window.
+2025-10-13 12:15:48,984 - INFO - root - Opening base URL: https://opensource-demo.orangehrmlive.com/
+2025-10-13 12:15:58,532 - INFO - pages.login_page - LoginPage initialized
+2025-10-13 12:15:58,532 - INFO - pages.leave_admin_page - LeaveAdminPage initialized.
+2025-10-13 12:15:58,532 - INFO - tests.Leave.test_admin_create_leave - Starting test: Create Leave Type and Assign Entitlement
+2025-10-13 12:15:58,532 - INFO - tests.Leave.test_admin_create_leave - Logging in as Admin: Admin
+2025-10-13 12:15:58,533 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-13 12:16:00,561 - INFO - pages.login_page - Login button clicked
+2025-10-13 12:16:00,561 - INFO - tests.Leave.test_admin_create_leave - Login successful.
+2025-10-13 12:16:00,561 - INFO - tests.Leave.test_admin_create_leave - Navigating to Leave Types page.
+2025-10-13 12:16:00,561 - INFO - pages.leave_admin_page - Navigating to Leave Types page...
+2025-10-13 12:16:05,668 - INFO - pages.leave_admin_page - Clicked Leave menu.
+2025-10-13 12:16:07,257 - INFO - pages.leave_admin_page - Clicked Configure menu.
+2025-10-13 12:16:08,431 - INFO - pages.leave_admin_page - Clicked Leave Types.
+2025-10-13 12:16:08,432 - INFO - tests.Leave.test_admin_create_leave - Adding new leave type: 'happy Leave'
+2025-10-13 12:16:08,432 - INFO - pages.leave_admin_page - Adding new leave type: happy Leave
+2025-10-13 12:16:10,075 - INFO - pages.leave_admin_page - Clicked Add button.
+2025-10-13 12:16:10,723 - INFO - pages.leave_admin_page - Add Leave Type popup appeared.
+2025-10-13 12:16:10,804 - INFO - pages.leave_admin_page - Cleared leave type name input.
+2025-10-13 12:16:11,094 - INFO - pages.leave_admin_page - Entered leave type name: happy Leave
+2025-10-13 12:16:11,394 - INFO - pages.leave_admin_page - Clicked Save button for leave type.
+2025-10-13 12:16:22,472 - ERROR - root - Test FAILED: test_create_leave_type_and_assign_entitlement. Screenshot saved at screenshots/test_create_leave_type_and_assign_entitlement_20251013_121622.png
+2025-10-13 12:16:22,475 - INFO - root - Clearing cookies and storage after test.
+2025-10-13 12:16:22,546 - INFO - WDM - ====== WebDriver manager ======
+2025-10-13 12:16:25,770 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-13 12:16:25,884 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-10-13 12:16:25,988 - INFO - WDM - Driver [C:\Users\shahn\.wdm\drivers\chromedriver\win64\141.0.7390.76\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-13 12:16:40,073 - INFO - pages.login_page - LoginPage initialized
+2025-10-13 12:16:40,074 - INFO - pages.dashboard_page - DashboardPage initialized
+2025-10-13 12:16:40,074 - INFO - pages.login_page - Attempting login with username: 'Admin'
+2025-10-13 12:16:47,463 - INFO - pages.login_page - Login button clicked
+2025-10-13 12:16:47,463 - INFO - pages.dashboard_page - Navigating to PIM page
+2025-10-13 12:17:19,999 - INFO - root - Driver closed after session.

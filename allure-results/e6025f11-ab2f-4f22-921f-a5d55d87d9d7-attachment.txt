@@ -1,0 +1,16 @@
+
+>>> Test: Add Employee - David Wilson
+>>> Navigating to Add Employee page
+✅ Clicked on Add Employee menu
+>>> Creating employee: David lRXiDd Wilson
+>>> Filling First Name: David
+>>> Filling Last Name: Wilson
+>>> Waiting for Employee ID to auto-generate
+>>> Retrieved Employee ID: 0384
+✅ Auto-generated Employee ID: 0384
+>>> Filling Middle Name: lRXiDd
+✅ Middle name filled: lRXiDd
+>>> Retrieved Employee ID: 0384
+>>> Clicking Save button
+✅ Employee saved
+>>> Success message text: 

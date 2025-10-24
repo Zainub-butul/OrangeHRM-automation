@@ -9,8 +9,8 @@ class Config:
     # Browser settings
     BROWSER = "chrome"  # chrome, firefox, edge
     HEADLESS = False
-    IMPLICIT_WAIT = 10
-    EXPLICIT_WAIT = 20
+    IMPLICIT_WAIT = 15
+    EXPLICIT_WAIT = 30
 
     # Screenshot settings
     SCREENSHOT_ON_FAILURE = True

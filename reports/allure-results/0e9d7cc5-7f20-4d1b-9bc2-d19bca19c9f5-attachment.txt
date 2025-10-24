@@ -1,0 +1,17 @@
+
+>>> Test: Add Employee - Emma Brown
+>>> Navigating to Add Employee page
+✅ Clicked on Add Employee menu
+>>> Creating employee: Emma  Brown
+>>> Filling First Name: Emma
+>>> Filling Last Name: Brown
+>>> Waiting for Employee ID to auto-generate
+>>> Retrieved Employee ID: 0403
+✅ Auto-generated Employee ID: 0403
+>>> Retrieved Employee ID: 0403
+>>> Clicking Save button
+✅ Employee saved
+>>> Success message text: Success
+✅ Employee created successfully: Emma  Brown (ID: 0403)
+>>> Navigating to Add Employee page
+✅ Clicked on Add Employee menu

@@ -1,0 +1,53 @@
+[32mINFO    [0m root:conftest.py:40 Initializing WebDriver for browser: chrome
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\shahn\.wdm\drivers\chromedriver\win64\141.0.7390.76\chromedriver-win32/chromedriver.exe] found in cache
+[32mINFO    [0m root:conftest.py:61 Chrome WebDriver launched successfully.
+[32mINFO    [0m root:conftest.py:73 Driver configured with implicit wait and maximized window.
+[32mINFO    [0m root:conftest.py:87 Opening base URL: https://opensource-demo.orangehrmlive.com/
+[32mINFO    [0m pages.login_page:login_page.py:21 LoginPage initialized
+[32mINFO    [0m pages.leave_admin_page:leave_admin_page.py:15 LeaveAdminPage initialized.
+[32mINFO    [0m tests.Leave.test_admin_create_leave:test_admin_create_leave.py:19 Starting test: Create Leave Type and Assign Entitlement
+[32mINFO    [0m tests.Leave.test_admin_create_leave:test_admin_create_leave.py:20 Logging in as Admin: Admin
+[32mINFO    [0m pages.login_page:login_page.py:25 Attempting login with username: 'Admin'
+[32mINFO    [0m pages.login_page:login_page.py:29 Login button clicked
+[32mINFO    [0m tests.Leave.test_admin_create_leave:test_admin_create_leave.py:22 Login successful.
+[32mINFO    [0m tests.Leave.test_admin_create_leave:test_admin_create_leave.py:25 Navigating to Leave Types page.
+[32mINFO    [0m pages.leave_admin_page:leave_admin_page.py:40 Navigating to Leave Types page...
+[32mINFO    [0m pages.leave_admin_page:leave_admin_page.py:42 Clicked Leave menu.
+[32mINFO    [0m pages.leave_admin_page:leave_admin_page.py:44 Clicked Configure menu.
+[32mINFO    [0m pages.leave_admin_page:leave_admin_page.py:46 Clicked Leave Types.
+[32mINFO    [0m tests.Leave.test_admin_create_leave:test_admin_create_leave.py:27 Adding new leave type: 'happy Leave'
+[32mINFO    [0m pages.leave_admin_page:leave_admin_page.py:49 Adding new leave type: care Leave
+[32mINFO    [0m pages.leave_admin_page:leave_admin_page.py:51 Clicked Add button.
+[32mINFO    [0m pages.leave_admin_page:leave_admin_page.py:55 Add Leave Type popup appeared.
+[32mINFO    [0m pages.leave_admin_page:leave_admin_page.py:59 Cleared leave type name input.
+[32mINFO    [0m pages.leave_admin_page:leave_admin_page.py:61 Entered leave type name: care Leave
+[32mINFO    [0m pages.leave_admin_page:leave_admin_page.py:64 Clicked Save button for leave type.
+[32mINFO    [0m pages.leave_admin_page:leave_admin_page.py:67 Leave type added successfully. Toast message: 'Success
+Successfully Saved'
+[32mINFO    [0m tests.Leave.test_admin_create_leave:test_admin_create_leave.py:29 Leave type creation toast message: 'Success
+Successfully Saved'
+[32mINFO    [0m tests.Leave.test_admin_create_leave:test_admin_create_leave.py:31 Leave type added successfully.
+[32mINFO    [0m tests.Leave.test_admin_create_leave:test_admin_create_leave.py:34 Assigning entitlement to employee 'John Doe'.
+[32mINFO    [0m pages.leave_admin_page:leave_admin_page.py:71 Adding entitlement for employee 'John Doe', leave type 'care Leave', days '10'
+[32mINFO    [0m pages.leave_admin_page:leave_admin_page.py:73 Clicked Leave menu.
+[32mINFO    [0m pages.leave_admin_page:leave_admin_page.py:75 Clicked Entitlements menu.
+[32mINFO    [0m pages.leave_admin_page:leave_admin_page.py:77 Clicked Add Entitlements.
+[32mINFO    [0m pages.leave_admin_page:leave_admin_page.py:83 Entered employee name: John Doe
+[32mINFO    [0m pages.leave_admin_page:leave_admin_page.py:85 Selected employee from suggestions.
+[32mINFO    [0m pages.leave_admin_page:leave_admin_page.py:89 Clicked Leave Type dropdown.
+[32mINFO    [0m pages.leave_admin_page:leave_admin_page.py:91 Selected leave type: care Leave
+[32mINFO    [0m pages.leave_admin_page:leave_admin_page.py:95 Entered entitlement days: 10
+[32mINFO    [0m pages.leave_admin_page:leave_admin_page.py:98 Clicked Save button for entitlement.
+[32mINFO    [0m pages.leave_admin_page:leave_admin_page.py:104 Confirmation modal appeared.
+[32mINFO    [0m pages.leave_admin_page:leave_admin_page.py:110 Clicked Confirm button on modal.
+[32mINFO    [0m pages.leave_admin_page:leave_admin_page.py:116 Entitlement added successfully. Toast message: 'Success
+Successfully Saved'
+[32mINFO    [0m tests.Leave.test_admin_create_leave:test_admin_create_leave.py:36 Entitlement assignment toast message: 'Success
+Successfully Saved'
+[32mINFO    [0m tests.Leave.test_admin_create_leave:test_admin_create_leave.py:38 Entitlement assigned successfully.
+[32mINFO    [0m tests.Leave.test_admin_create_leave:test_admin_create_leave.py:39 Test completed successfully.
+[32mINFO    [0m root:conftest.py:91 Clearing cookies and storage after test.
+[32mINFO    [0m root:conftest.py:78 Driver closed after session.

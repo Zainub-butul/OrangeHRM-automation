@@ -1,0 +1,17 @@
+
+>>> Test: Add Employee - Carol Davis
+>>> Navigating to Add Employee page
+✅ Clicked on Add Employee menu
+>>> Creating employee: Carol  Davis
+>>> Filling First Name: Carol
+>>> Filling Last Name: Davis
+>>> Waiting for Employee ID to auto-generate
+>>> Retrieved Employee ID: 0415
+✅ Auto-generated Employee ID: 0415
+>>> Retrieved Employee ID: 0415
+>>> Clicking Save button
+✅ Employee saved
+>>> Success message text: Success
+✅ Employee created successfully: Carol  Davis (ID: 0415)
+>>> Navigating to Add Employee page
+✅ Clicked on Add Employee menu

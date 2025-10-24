@@ -1,0 +1,80 @@
+>>> Opening OrangeHRM demo site
+>>> Logging in with Admin credentials
+✅ Login completed
+>>> Initializing AdminPage fixture
+✅ AdminPage fixture ready
+>>> Test: Add User started
+>>> Navigating to Admin module
+>>> Navigating to Admin menu
+✅ Admin menu clicked
+>>> Clicking Add button
+>>> Clicking Add button
+✅ Add button clicked
+>>> Generated unique username: testuser_1760079604
+>>> Selecting User Role: ESS
+>>> Selecting user role: ESS
+✅ User Role selected: ESS
+>>> Selecting Employee Name: John Doe
+>>> Selecting employee name with search: 'John Doe'
+✅ Employee Name selected
+>>> Selecting Status: Enabled
+>>> Selecting status: Enabled
+✅ Status selected: Enabled
+>>> Entering Username: testuser_1760079604
+>>> Entering username: testuser_1760079604
+✅ Username entered
+>>> Entering Password
+>>> Entering password
+✅ Password entered
+>>> Entering Confirm Password
+>>> Entering confirm password
+✅ Confirm Password entered
+>>> Clicking Save
+>>> Clicking Save button
+✅ Save button clicked
+>>> Verifying if user was saved successfully
+>>> Checking if user was saved successfully
+>>> Retrieving success message
+📢 Success Message: Success
+Successfully Saved
+✅ User saved successfully: True
+✅ User 'testuser_1760079604' saved successfully
+>>> Searching for user in list: testuser_1760079604
+>>> Searching for user: testuser_1760079604
+⚠️ Error searching user: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"Node with given id does not belong to the document"}
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x57c333+65459]
+	GetHandleVerifier [0x0x57c374+65524]
+	(No symbol) [0x0x39d973]
+	(No symbol) [0x0x38d710]
+	(No symbol) [0x0x38c015]
+	(No symbol) [0x0x38c8a7]
+	(No symbol) [0x0x3adaef]
+	(No symbol) [0x0x3afc24]
+	(No symbol) [0x0x3aea30]
+	(No symbol) [0x0x3a4e1c]
+	(No symbol) [0x0x3a3321]
+	(No symbol) [0x0x3a6734]
+	(No symbol) [0x0x3a67c8]
+	(No symbol) [0x0x3e204c]
+	(No symbol) [0x0x3e05e6]
+	(No symbol) [0x0x409dfc]
+	(No symbol) [0x0x3dcbf4]
+	(No symbol) [0x0x409fb4]
+	(No symbol) [0x0x42b606]
+	(No symbol) [0x0x409bf6]
+	(No symbol) [0x0x3db38e]
+	(No symbol) [0x0x3dc274]
+	GetHandleVerifier [0x0x7feda3+2697763]
+	GetHandleVerifier [0x0x7f9ec7+2677575]
+	GetHandleVerifier [0x0x5a4194+228884]
+	GetHandleVerifier [0x0x5949f8+165496]
+	GetHandleVerifier [0x0x59b18d+192013]
+	GetHandleVerifier [0x0x5847d8+99416]
+	GetHandleVerifier [0x0x584972+99826]
+	GetHandleVerifier [0x0x56ebea+10346]
+	BaseThreadInitThunk [0x0x76307ba9+25]
+	RtlInitializeExceptionChain [0x0x7788c2eb+107]
+	RtlClearBits [0x0x7788c26f+191]
+

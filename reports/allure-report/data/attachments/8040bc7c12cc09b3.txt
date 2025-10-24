@@ -1,0 +1,54 @@
+>>> Starting login fixture
+>>> Login completed
+>>> Initializing VacancyPage fixture
+>>> VacancyPage fixture ready
+>>> Test: Add Vacancy started
+>>> Navigating to Vacancies menu
+>>> Navigating to Recruitment tab
+>>> Recruitment tab clicked
+>>> Waiting for Vacancies menu
+>>> Vacancies menu clicked successfully
+>>> Clicking Add button
+>>> Clicking Add button
+>>> Add button clicked successfully
+>>> Selecting Job Title
+>>> Selecting Job Title: QA Engineer
+>>> Dropdown clicked
+>>> Job Title 'QA Engineer' selected successfully
+>>> Entering Vacancy Name
+>>> Entering Vacancy Name: Automation Tester Vacancy
+>>> Vacancy Name entered successfully
+>>> Entering Hiring Manager
+>>> Entering Hiring Manager: Linda Anderson
+>>> Hiring Manager entered successfully
+>>> Saving vacancy
+>>> Clicking Save button
+>>> Save button clicked successfully
+>>> Verifying success message
+!!! Failed to verify vacancy added: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x126c333+65459]
+	GetHandleVerifier [0x0x126c374+65524]
+	(No symbol) [0x0x108d973]
+	(No symbol) [0x0x10d76e7]
+	(No symbol) [0x0x10d7a8b]
+	(No symbol) [0x0x111dea2]
+	(No symbol) [0x0x10f9e44]
+	(No symbol) [0x0x111b606]
+	(No symbol) [0x0x10f9bf6]
+	(No symbol) [0x0x10cb38e]
+	(No symbol) [0x0x10cc274]
+	GetHandleVerifier [0x0x14eeda3+2697763]
+	GetHandleVerifier [0x0x14e9ec7+2677575]
+	GetHandleVerifier [0x0x1294194+228884]
+	GetHandleVerifier [0x0x12849f8+165496]
+	GetHandleVerifier [0x0x128b18d+192013]
+	GetHandleVerifier [0x0x12747d8+99416]
+	GetHandleVerifier [0x0x1274972+99826]
+	GetHandleVerifier [0x0x125ebea+10346]
+	BaseThreadInitThunk [0x0x76307ba9+25]
+	RtlInitializeExceptionChain [0x0x7788c2eb+107]
+	RtlClearBits [0x0x7788c26f+191]
+
+>>> Finished VacancyPage fixture
+>>> Finished login fixture

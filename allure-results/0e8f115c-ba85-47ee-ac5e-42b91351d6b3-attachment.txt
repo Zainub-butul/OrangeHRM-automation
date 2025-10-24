@@ -1,0 +1,13 @@
+[32mINFO    [0m root:conftest.py:87 Opening base URL: https://opensource-demo.orangehrmlive.com/
+[32mINFO    [0m pages.login_page:login_page.py:21 LoginPage initialized
+[32mINFO    [0m pages.leave_admin_page:leave_admin_page.py:15 LeaveAdminPage initialized.
+[32mINFO    [0m tests.Leave.test_admin_create_leave:test_admin_create_leave.py:19 Starting test: Create Leave Type and Assign Entitlement
+[32mINFO    [0m tests.Leave.test_admin_create_leave:test_admin_create_leave.py:20 Logging in as Admin: Admin
+[32mINFO    [0m pages.login_page:login_page.py:25 Attempting login with username: 'Admin'
+[32mINFO    [0m pages.login_page:login_page.py:29 Login button clicked
+[32mINFO    [0m tests.Leave.test_admin_create_leave:test_admin_create_leave.py:22 Login successful.
+[32mINFO    [0m tests.Leave.test_admin_create_leave:test_admin_create_leave.py:25 Navigating to Leave Types page.
+[32mINFO    [0m pages.leave_admin_page:leave_admin_page.py:40 Navigating to Leave Types page...
+[32mINFO    [0m pages.leave_admin_page:leave_admin_page.py:42 Clicked Leave menu.
+[32mINFO    [0m pages.leave_admin_page:leave_admin_page.py:44 Clicked Configure menu.
+[32mINFO    [0m root:conftest.py:91 Clearing cookies and storage after test.

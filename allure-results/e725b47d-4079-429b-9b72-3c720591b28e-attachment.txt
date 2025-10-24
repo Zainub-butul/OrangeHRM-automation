@@ -1,0 +1,58 @@
+>>> Test: Attendance Punch In/Out and View Records started
+>>> Logging in with Admin credentials
+✅ Login successful
+>>> Navigating to Time module from Dashboard
+✅ Navigation to Time module successful
+>>> Punching In
+>>> Performing Punch In
+>>> Navigating to Punch In/Out page
+>>> Opening Attendance menu
+>>> Attendance menu clickable, attempting click
+✅ Element clicked successfully
+✅ Attendance menu opened
+✅ Element clicked successfully
+✅ Punch In/Out page opened
+>>> Note entered for Punch In: Starting work for the day
+>>> Clicking Punch In button
+✅ Element clicked successfully
+✅ Punch In button clicked
+📢 Punch In Toast Message: Success
+Successfully Saved
+✅ Punch In successful
+>>> Punching Out
+>>> Performing Punch Out
+>>> Navigating to Punch In/Out page
+>>> Opening Attendance menu
+>>> Attendance menu clickable, attempting click
+✅ Element clicked successfully
+✅ Attendance menu opened
+✅ Element clicked successfully
+✅ Punch In/Out page opened
+>>> Note entered for Punch Out: Work finished for the day
+>>> Clicking Punch Out button
+✅ Element clicked via JS due to intercept
+✅ Punch Out button clicked
+📢 Punch Out Toast Message: Success
+Successfully Saved
+✅ Punch Out successful
+>>> Navigating to My Records
+>>> Navigating to My Records page
+>>> Opening Attendance menu
+>>> Attendance menu clickable, attempting click
+✅ Element clicked successfully
+✅ Attendance menu opened
+✅ Element clicked successfully
+✅ My Records page opened
+➡️ Navigated to My Records
+>>> Filtering records by today's date: 2025-10-13
+>>> Filtering attendance records for date: 2025-10-13
+>>> Date entered: 2025-10-13
+✅ Filter applied and View button clicked for date 2025-10-13
+✅ Records filtered for today
+>>> Retrieving attendance records
+📄 Total records found: 1
+✅ Records found: 1
+>>> Checking total work duration
+⏱️ Total Work Duration: Total Duration (Hours): 0.00
+✅ Total Work Duration: Total Duration (Hours): 0.00
+>>> Test: Attendance Punch In/Out and View Records finished
