@@ -11,20 +11,16 @@ from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
 from config import Config
 
-
 # -------------------------
 # LOGGING SETUP
 # -------------------------
-# Ensure logs folder exists
 log_dir = os.path.join(os.getcwd(), "logs")
 os.makedirs(log_dir, exist_ok=True)
-
-# Create a unique log file per test session
 log_file = os.path.join(log_dir, f"test_log_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.log")
 
 logging.basicConfig(
     filename=log_file,
-    level=logging.INFO,   # INFO, WARNING, ERROR will all be captured
+    level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(name)s - %(message)s"
 )
 
@@ -49,8 +45,12 @@ def driver_setup():
         }
         options.add_experimental_option("prefs", prefs)
 
-        if Config.HEADLESS:
-            options.add_argument("--headless")
+        # ✅ Always headless in CI (GitHub Actions)
+        if os.getenv("GITHUB_ACTIONS") == "true" or Config.HEADLESS:
+            options.add_argument("--headless=new")
+            options.add_argument("--no-sandbox")
+            options.add_argument("--disable-dev-shm-usage")
+
         options.add_argument("--window-size=1920,1080")
         options.add_argument("--disable-blink-features=AutomationControlled")
         options.add_experimental_option("excludeSwitches", ["enable-automation"])
@@ -62,7 +62,7 @@ def driver_setup():
 
     elif Config.BROWSER.lower() == "firefox":
         options = FirefoxOptions()
-        if Config.HEADLESS:
+        if os.getenv("GITHUB_ACTIONS") == "true" or Config.HEADLESS:
             options.add_argument("--headless")
         service = FirefoxService(GeckoDriverManager().install())
         driver = webdriver.Firefox(service=service, options=options)
