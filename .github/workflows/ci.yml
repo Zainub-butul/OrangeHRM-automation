@@ -46,6 +46,8 @@ jobs:
         run: google-chrome --version
 
       - name: Run tests
+        env:
+          GITHUB_ACTIONS: true
         run: |
           mkdir -p reports
           pytest \
@@ -55,6 +57,7 @@ jobs:
             -v \
             --tb=short
         continue-on-error: false
+      
 
       - name: Upload pytest HTML report
         if: always()
