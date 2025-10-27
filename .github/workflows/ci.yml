@@ -33,6 +33,7 @@ jobs:
           pip install -r requirements.txt
           pip install selenium webdriver-manager pytest-html
 
+      # ✅ Install Chrome browser
       - name: Install Google Chrome
         run: |
           sudo apt-get update
@@ -45,11 +46,23 @@ jobs:
       - name: Check Chrome version
         run: google-chrome --version
 
+      # ✅ Add Chrome driver binary (so Selenium can locate Chrome)
+      - name: Add Chrome binary to PATH
+        run: |
+          echo "CHROME_BIN=$(which google-chrome)" >> $GITHUB_ENV
+          echo "CHROMEDRIVER=$(which chromedriver || echo '')" >> $GITHUB_ENV
+          echo "PATH=$PATH:/usr/bin" >> $GITHUB_ENV
+
+      # ✅ Run tests headlessly
       - name: Run tests
         env:
           GITHUB_ACTIONS: true
+          CHROME_BIN: /usr/bin/google-chrome
         run: |
           mkdir -p reports
+          echo "Enabling headless mode for GitHub Actions..."
+          sed -i 's/HEADLESS = False/HEADLESS = True/' config.py
+
           pytest \
             --html=reports/test_report.html \
             --self-contained-html \
@@ -57,7 +70,6 @@ jobs:
             -v \
             --tb=short
         continue-on-error: false
-      
 
       - name: Upload pytest HTML report
         if: always()
